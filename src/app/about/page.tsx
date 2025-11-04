@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Target, Users, TrendingUp, Award } from "lucide-react";
+import Image from "next/image";
+import { ArrowRight, Users, TrendingUp, Award } from "lucide-react";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import { Button } from "@/components/ui/button";
@@ -53,7 +54,15 @@ export default function AboutPage() {
           <div className="container">
             <div className="mx-auto max-w-4xl">
               <div className="text-center mb-12">
-                <Target className="mx-auto h-12 w-12 text-primary mb-4" />
+                <div className="mx-auto w-16 h-16 mb-4 flex items-center justify-center">
+                  <Image 
+                    src="/images/OMNICORE TRANSPARENT.png" 
+                    alt="OmniCore Solutions" 
+                    width={64} 
+                    height={64}
+                    className="drop-shadow-[0_0_15px_rgba(0,240,255,0.3)]"
+                  />
+                </div>
                 <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                   Our Mission
                 </h2>
