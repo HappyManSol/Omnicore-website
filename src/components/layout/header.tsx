@@ -29,7 +29,7 @@ export default function Header() {
               height={40}
               className="transition-transform group-hover:scale-110"
             />
-            <span className="font-display text-xl font-bold text-crypto-accent group-hover:text-crypto-electric transition-colors hidden sm:inline">
+            <span className="font-display text-xl font-bold text-crypto-accent group-hover:text-crypto-electric transition-colors">
               {SITE_CONFIG.name}
             </span>
           </Link>
