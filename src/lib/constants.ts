@@ -122,6 +122,17 @@ export const SERVICES = [
 
 export const CASE_STUDIES = [
   {
+    id: "flashdash-invoice-automation",
+    title: "AI-Powered Invoice Processing System",
+    client: "FlashDash",
+    category: "Web2",
+    challenge: "Automate end-to-end invoice management by scanning PDFs, extracting data via OCR, and structuring information for easy tracking and reporting.",
+    solution: "Built full-stack automation platform using Google Gemini AI, Google Workspace integration, with automatic PDF processing, OCR, AI analysis, and direct Google Sheets integration with validation workflows.",
+    results: "100% automated invoice processing, 95% data extraction accuracy, hours of manual work eliminated per week, seamless Google Workspace integration.",
+    image: "/images/case-studies/flashdash.jpg",
+    tags: ["AI", "Automation", "SaaS", "Analytics"],
+  },
+  {
     id: "defi-protocol-launch",
     title: "DeFi Protocol Launch",
     client: "AquaFinance",
