@@ -53,8 +53,8 @@ export default function ServicesPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                We don&rsquo;t just consult — we execute. From product development and design to marketing campaigns and strategic partnerships, 
-                we&rsquo;re your complete in-house team for Web2 and Web3 success.
+                We don&rsquo;t just consult — we execute. Serving both traditional Web2 companies and innovative Web3 projects, 
+                we deliver end-to-end product development, design, marketing, and strategic partnerships to bring your vision to life.
               </p>
             </div>
           </div>

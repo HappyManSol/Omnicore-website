@@ -28,7 +28,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-lg text-muted-foreground md:text-xl max-w-3xl mx-auto">
-            {MISSION_STATEMENT}
+            Whether you&rsquo;re a traditional Web2 company exploring blockchain or a Web3 project ready to launch, we provide the expertise and execution you need. {MISSION_STATEMENT}
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">

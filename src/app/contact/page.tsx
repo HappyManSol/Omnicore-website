@@ -28,8 +28,8 @@ export default function ContactPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                Ready to transform your project? Book a free discovery call and let&rsquo;s explore 
-                how we can help you succeed in the Web3 space.
+                Whether you&rsquo;re a Web2 company ready to explore blockchain or a Web3 project ready to launch, 
+                book a free discovery call and let&rsquo;s discuss how we can help you succeed.
               </p>
             </div>
           </div>
