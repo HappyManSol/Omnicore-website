@@ -8,6 +8,7 @@ export const SITE_CONFIG = {
     twitter: "https://twitter.com/omnicore",
     linkedin: "https://linkedin.com/company/omnicore-solutions",
     github: "https://github.com/omnicore",
+    telegram: "https://t.me/omnicore", // Replace with your actual Telegram link
   },
 } as const;
 

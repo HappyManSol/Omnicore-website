@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Linkedin, Twitter, Github, Mail } from "lucide-react";
+import { Linkedin, Twitter, Github, Mail, Send } from "lucide-react";
 import { SITE_CONFIG, NAV_LINKS, COMPANY_INFO } from "@/lib/constants";
 
 export default function Footer() {
@@ -40,6 +40,15 @@ export default function Footer() {
                 aria-label="Twitter"
               >
                 <Twitter className="h-5 w-5" />
+              </a>
+              <a
+                href={SITE_CONFIG.links.telegram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-crypto-grey-400 hover:text-crypto-accent transition-colors"
+                aria-label="Telegram"
+              >
+                <Send className="h-5 w-5" />
               </a>
               <a
                 href={SITE_CONFIG.links.github}
