@@ -35,7 +35,7 @@ export default function CaseStudiesPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                From SaaS platforms and mobile apps to DeFi protocols and NFT marketplaces — see how we&rsquo;ve helped clients 
+                From SaaS platforms and mobile apps to DeFi protocols and NFT marketplaces, see how we&rsquo;ve helped clients 
                 across Web2 and Web3 build, launch, and grow successfully.
               </p>
             </div>
