@@ -10,23 +10,14 @@ export function OrganizationSchema() {
     "logo": `${SITE_CONFIG.url}/logo.png`,
     "description": SITE_CONFIG.description,
     "email": COMPANY_INFO.email,
-    "telephone": COMPANY_INFO.phone,
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "123 Innovation Street",
-      "addressLocality": "Tech City",
-      "addressRegion": "TC",
-      "postalCode": "12345",
-      "addressCountry": "US"
-    },
     "sameAs": [
       SITE_CONFIG.links.linkedin,
       SITE_CONFIG.links.twitter,
+      SITE_CONFIG.links.telegram,
       SITE_CONFIG.links.github,
     ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": COMPANY_INFO.phone,
       "contactType": "customer service",
       "email": COMPANY_INFO.email,
       "availableLanguage": ["en"]

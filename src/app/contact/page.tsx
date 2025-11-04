@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail } from "lucide-react";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import ContactForm from "@/components/contact-form";
@@ -53,17 +53,16 @@ export default function ContactPage() {
                     Get in touch
                   </h2>
                   <p className="text-muted-foreground mb-8">
-                    We typically respond within 24 hours. For urgent inquiries, 
-                    please call us directly.
+                    We typically respond within 24 hours. Send us a message and we&rsquo;ll get back to you as soon as possible.
                   </p>
                 </div>
 
                 <div className="space-y-6">
-                  <Card>
+                  <Card className="border-crypto-accent/20 bg-crypto-grey-900/50 backdrop-blur">
                     <CardHeader className="pb-3">
                       <div className="flex items-center gap-3">
-                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
-                          <Mail className="h-5 w-5 text-primary" />
+                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-crypto-accent/10">
+                          <Mail className="h-5 w-5 text-crypto-accent" />
                         </div>
                         <CardTitle className="text-lg">Email</CardTitle>
                       </div>
@@ -71,58 +70,23 @@ export default function ContactPage() {
                     <CardContent>
                       <a 
                         href={`mailto:${COMPANY_INFO.email}`}
-                        className="text-muted-foreground hover:text-primary transition-colors"
+                        className="text-muted-foreground hover:text-crypto-accent transition-colors"
                       >
                         {COMPANY_INFO.email}
                       </a>
                     </CardContent>
                   </Card>
 
-                  <Card>
-                    <CardHeader className="pb-3">
-                      <div className="flex items-center gap-3">
-                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
-                          <Phone className="h-5 w-5 text-primary" />
-                        </div>
-                        <CardTitle className="text-lg">Phone</CardTitle>
-                      </div>
+                  <Card className="bg-crypto-accent/5 border-crypto-accent/20">
+                    <CardHeader>
+                      <CardTitle className="text-lg">Response Time</CardTitle>
                     </CardHeader>
-                    <CardContent>
-                      <a 
-                        href={`tel:${COMPANY_INFO.phone.replace(/\s/g, '')}`}
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                      >
-                        {COMPANY_INFO.phone}
-                      </a>
-                    </CardContent>
-                  </Card>
-
-                  <Card>
-                    <CardHeader className="pb-3">
-                      <div className="flex items-center gap-3">
-                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
-                          <MapPin className="h-5 w-5 text-primary" />
-                        </div>
-                        <CardTitle className="text-lg">Office</CardTitle>
-                      </div>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-muted-foreground">
-                        {COMPANY_INFO.address}
-                      </p>
+                    <CardContent className="space-y-2 text-sm text-muted-foreground">
+                      <p>We aim to respond to all inquiries within 24 hours during business days.</p>
+                      <p className="text-crypto-accent">Available globally via email</p>
                     </CardContent>
                   </Card>
                 </div>
-
-                <Card className="bg-primary/5 border-primary/20">
-                  <CardHeader>
-                    <CardTitle className="text-lg">Working Hours</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-2 text-sm text-muted-foreground">
-                    <p>Monday - Friday: 9:00 AM - 6:00 PM EST</p>
-                    <p>Saturday - Sunday: Closed</p>
-                  </CardContent>
-                </Card>
               </div>
             </div>
           </div>
