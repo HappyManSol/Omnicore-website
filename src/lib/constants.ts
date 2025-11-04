@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://omnicore.vercel.app",
   ogImage: "/images/OMNICORE TRANSPARENT.png",
   links: {
-    twitter: "https://twitter.com/omnicore",
+    twitter: "https://x.com/OmniCoreSOL",
     linkedin: "https://linkedin.com/company/omnicore-solutions",
     github: "https://github.com/omnicore",
     telegram: "https://t.me/OmniCoreSolutions",
