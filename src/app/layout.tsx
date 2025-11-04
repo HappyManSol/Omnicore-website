@@ -72,11 +72,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/images/OMNICORE.png", sizes: "32x32", type: "image/png" },
-      { url: "/images/OMNICORE.png", sizes: "16x16", type: "image/png" },
+      { url: "/images/OMNICORE TRANSPARENT W SPHERE.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/OMNICORE TRANSPARENT W SPHERE.png", sizes: "16x16", type: "image/png" },
     ],
-    shortcut: "/images/OMNICORE.png",
-    apple: { url: "/images/OMNICORE.png", sizes: "180x180", type: "image/png" },
+    shortcut: "/images/OMNICORE TRANSPARENT W SPHERE.png",
+    apple: { url: "/images/OMNICORE TRANSPARENT W SPHERE.png", sizes: "180x180", type: "image/png" },
   },
   manifest: "/site.webmanifest",
 };
