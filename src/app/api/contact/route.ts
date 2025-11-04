@@ -20,7 +20,35 @@ export async function POST(request: NextRequest) {
 
     const { name, email, company, phone, message } = validationResult.data;
 
-    // Send email via Resend
+    // Send Telegram notification (PRIMARY METHOD)
+    try {
+      const telegramResult = await sendTelegramNotification({
+        name,
+        email,
+        company,
+        phone,
+        message,
+      });
+
+      if (!telegramResult.success && !telegramResult.skipped) {
+        throw new Error("Failed to send Telegram notification");
+      }
+
+      if (telegramResult.skipped) {
+        return NextResponse.json(
+          { error: "Telegram is not configured. Please contact the administrator." },
+          { status: 500 }
+        );
+      }
+    } catch (telegramError) {
+      console.error("Failed to send Telegram notification:", telegramError);
+      return NextResponse.json(
+        { error: "Failed to send notification. Please try again later." },
+        { status: 500 }
+      );
+    }
+
+    // Send email via Resend (optional - non-blocking)
     try {
       await sendContactEmail({
         name,
@@ -30,14 +58,11 @@ export async function POST(request: NextRequest) {
         message,
       });
     } catch (emailError) {
-      console.error("Failed to send email:", emailError);
-      return NextResponse.json(
-        { error: "Failed to send email. Please try again later." },
-        { status: 500 }
-      );
+      // Log but don't fail - email is optional
+      console.error("Failed to send email (optional):", emailError);
     }
 
-    // Add contact to Mailchimp (non-blocking - we don't fail the request if this fails)
+    // Add contact to Mailchimp (optional - non-blocking)
     try {
       const nameParts = name.split(" ");
       const firstName = nameParts[0] || name;
@@ -51,22 +76,8 @@ export async function POST(request: NextRequest) {
         phone,
       });
     } catch (mailchimpError) {
-      // Log the error but don't fail the request
-      console.error("Failed to add contact to Mailchimp:", mailchimpError);
-    }
-
-    // Send Telegram notification (non-blocking)
-    try {
-      await sendTelegramNotification({
-        name,
-        email,
-        company,
-        phone,
-        message,
-      });
-    } catch (telegramError) {
-      // Log the error but don't fail the request
-      console.error("Failed to send Telegram notification:", telegramError);
+      // Log but don't fail - Mailchimp is optional
+      console.error("Failed to add contact to Mailchimp (optional):", mailchimpError);
     }
 
     return NextResponse.json(
