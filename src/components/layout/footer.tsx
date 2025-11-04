@@ -119,21 +119,11 @@ export default function Footer() {
               <li>
                 <a
                   href={`mailto:${COMPANY_INFO.email}`}
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
+                  className="text-sm text-muted-foreground hover:text-crypto-accent transition-colors flex items-center gap-2"
                 >
                   <Mail className="h-4 w-4" />
                   {COMPANY_INFO.email}
                 </a>
-              </li>
-              <li>
-                <p className="text-sm text-muted-foreground">
-                  {COMPANY_INFO.phone}
-                </p>
-              </li>
-              <li>
-                <p className="text-sm text-muted-foreground">
-                  {COMPANY_INFO.address}
-                </p>
               </li>
             </ul>
           </div>
