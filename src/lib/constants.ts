@@ -54,7 +54,7 @@ export const VALUES = [
 export const SERVICES = [
   {
     title: "Product Management & Development",
-    description: "End-to-end product strategy, roadmap planning, and technical development to bring your vision to life.",
+    description: "Ship your MVP in 12 weeks, reduce time-to-market by 30%. End-to-end product strategy, development, and launch execution.",
     icon: "package",
     details: [
       "Product strategy & roadmap",
@@ -65,7 +65,7 @@ export const SERVICES = [
   },
   {
     title: "Marketing & Go-to-Market",
-    description: "Comprehensive marketing strategies tailored for Web2 and Web3 audiences to maximize your launch impact.",
+    description: "Generate 3x more qualified leads with proven campaigns. We build, execute, and optimize marketing strategies that convert.",
     icon: "megaphone",
     details: [
       "Market research & positioning",
@@ -76,7 +76,7 @@ export const SERVICES = [
   },
   {
     title: "Launchpad Integration & Partnerships",
-    description: "Strategic partnerships with leading launchpads to ensure your project gets the visibility it deserves.",
+    description: "Access $5M+ in partnership opportunities. We connect you with tier-1 launchpads and strategic partners that accelerate growth.",
     icon: "rocket",
     details: [
       "Launchpad selection",
@@ -87,7 +87,7 @@ export const SERVICES = [
   },
   {
     title: "Business Development & Strategic Alliances",
-    description: "Leverage our network to forge partnerships that drive growth and open new opportunities.",
+    description: "Close high-value partnerships 2x faster. Leverage our network to forge alliances that drive revenue and market expansion.",
     icon: "handshake",
     details: [
       "Partnership strategy",
@@ -98,7 +98,7 @@ export const SERVICES = [
   },
   {
     title: "Web2 ↔ Web3 Bridges",
-    description: "Navigate the intersection of traditional and blockchain technology with expert tokenomics advisory.",
+    description: "Seamlessly integrate blockchain with 40% lower technical debt. Expert tokenomics, smart contracts, and migration planning.",
     icon: "bridge",
     details: [
       "Tokenomics design",
@@ -109,7 +109,7 @@ export const SERVICES = [
   },
   {
     title: "Tooling Integration & Ops",
-    description: "Streamline operations with enterprise-grade tools like Asana, Jira, and custom analytics solutions.",
+    description: "Save 15+ hours per week with automated workflows. Enterprise-grade tools, analytics, and operational excellence.",
     icon: "settings",
     details: [
       "Project management setup",
