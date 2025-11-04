@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,8 +21,15 @@ export default function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-crypto-grey-800 bg-crypto-dark/95 backdrop-blur supports-[backdrop-filter]:bg-crypto-dark/80">
       <nav className="container flex h-16 items-center justify-between" aria-label="Main navigation">
         <div className="flex items-center gap-6 md:gap-10">
-          <Link href="/" className="flex items-center space-x-2 group">
-            <span className="font-display text-xl font-bold text-crypto-accent group-hover:text-crypto-electric transition-colors">
+          <Link href="/" className="flex items-center space-x-3 group">
+            <Image 
+              src="/logo.png" 
+              alt="OmniCore Solutions Logo" 
+              width={40} 
+              height={40}
+              className="transition-transform group-hover:scale-110"
+            />
+            <span className="font-display text-xl font-bold text-crypto-accent group-hover:text-crypto-electric transition-colors hidden sm:inline">
               {SITE_CONFIG.name}
             </span>
           </Link>
