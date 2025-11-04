@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ArrowRight, Calendar } from "lucide-react";
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function CTASection() {
@@ -9,7 +10,15 @@ export default function CTASection() {
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-crypto-accent/20 via-crypto-electric/20 to-crypto-accent/20 p-1">
           <div className="rounded-3xl bg-crypto-grey-900/95 backdrop-blur-sm p-12 md:p-16 lg:p-20 border border-crypto-accent/30">
             <div className="mx-auto max-w-3xl text-center">
-              <Calendar className="mx-auto h-12 w-12 text-crypto-accent mb-6" />
+              <div className="mx-auto w-16 h-16 mb-6 flex items-center justify-center">
+                <Image 
+                  src="/images/OMNICORE TRANSPARENT.png" 
+                  alt="OmniCore Solutions" 
+                  width={64} 
+                  height={64}
+                  className="drop-shadow-[0_0_20px_rgba(0,240,255,0.4)] animate-pulse"
+                />
+              </div>
               <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl">
                 Ready to Transform Your Project?
               </h2>

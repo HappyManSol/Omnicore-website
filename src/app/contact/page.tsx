@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { Mail } from "lucide-react";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
@@ -49,9 +50,18 @@ export default function ContactPage() {
               {/* Contact Information */}
               <div className="space-y-8">
                 <div>
-                  <h2 className="font-display text-2xl font-bold text-foreground mb-6">
-                    Get in touch
-                  </h2>
+                  <div className="mb-6 flex items-center gap-3">
+                    <Image 
+                      src="/images/OMNICORE TRANSPARENT.png" 
+                      alt="OmniCore Solutions" 
+                      width={48} 
+                      height={48}
+                      className="drop-shadow-[0_0_15px_rgba(0,240,255,0.3)]"
+                    />
+                    <h2 className="font-display text-2xl font-bold text-foreground">
+                      Get in touch
+                    </h2>
+                  </div>
                   <p className="text-muted-foreground mb-8">
                     We typically respond within 24 hours. Send us a message and we&rsquo;ll get back to you as soon as possible.
                   </p>

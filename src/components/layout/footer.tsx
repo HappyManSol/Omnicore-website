@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Linkedin, Twitter, Github, Mail, Send } from "lucide-react";
 import { SITE_CONFIG, NAV_LINKS, COMPANY_INFO } from "@/lib/constants";
 
@@ -11,13 +12,22 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
           <div className="space-y-4">
-            <div>
-              <h3 className="font-display text-lg font-semibold text-crypto-accent">
-                {SITE_CONFIG.name}
-              </h3>
-              <p className="text-sm text-crypto-grey-400">
-                {SITE_CONFIG.altName}
-              </p>
+            <div className="flex items-center gap-3 mb-2">
+              <Image 
+                src="/images/OMNICORE TRANSPARENT.png" 
+                alt="OmniCore Solutions" 
+                width={32} 
+                height={32}
+                className="drop-shadow-[0_0_10px_rgba(0,240,255,0.2)]"
+              />
+              <div>
+                <h3 className="font-display text-lg font-semibold text-crypto-accent">
+                  {SITE_CONFIG.name}
+                </h3>
+                <p className="text-sm text-crypto-grey-400">
+                  {SITE_CONFIG.altName}
+                </p>
+              </div>
             </div>
             <p className="text-sm text-crypto-grey-400">
               {SITE_CONFIG.description}
