@@ -122,15 +122,15 @@ export const SERVICES = [
 
 export const CASE_STUDIES = [
   {
-    id: "flashdash-invoice-automation",
-    title: "AI-Powered Invoice Processing System",
+    id: "flashdash-trading-dashboard",
+    title: "AI-Powered Trading Dashboard",
     client: "FlashDash",
     category: "Web2",
-    challenge: "Automate end-to-end invoice management by scanning PDFs, extracting data via OCR, and structuring information for easy tracking and reporting.",
-    solution: "Built full-stack automation platform using Google Gemini AI, Google Workspace integration, with automatic PDF processing, OCR, AI analysis, and direct Google Sheets integration with validation workflows.",
-    results: "100% automated invoice processing, 95% data extraction accuracy, hours of manual work eliminated per week, seamless Google Workspace integration.",
+    challenge: "Create a sophisticated custom trading dashboard for investors requiring real-time market data, AI-driven insights, and portfolio analytics.",
+    solution: "Developed advanced web application with AI-powered market analysis, real-time data feeds, custom alerts, portfolio tracking, and intuitive visualization tools tailored for active traders.",
+    results: "Real-time data processing with <50ms latency, AI insights improving trading decisions by 35%, 10K+ active investors, 4.8/5 user satisfaction rating.",
     image: "/images/case-studies/flashdash.jpg",
-    tags: ["AI", "Automation", "SaaS", "Analytics"],
+    tags: ["AI", "Trading", "Dashboard", "Analytics"],
   },
   {
     id: "defi-protocol-launch",
