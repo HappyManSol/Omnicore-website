@@ -22,13 +22,16 @@ export default function Header() {
       <nav className="container flex h-16 items-center justify-between" aria-label="Main navigation">
         <div className="flex items-center gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-3 group">
-            <Image 
-              src="/images/OMNICORE.png" 
-              alt="OmniCore Solutions Logo" 
-              width={40} 
-              height={40}
-              className="transition-transform group-hover:scale-110"
-            />
+            <div className="relative w-10 h-10 rounded-lg overflow-hidden bg-transparent">
+              <Image 
+                src="/images/OMNICORE.png" 
+                alt="OmniCore Solutions Logo" 
+                width={40} 
+                height={40}
+                className="transition-transform group-hover:scale-110 mix-blend-screen"
+                style={{ filter: 'brightness(1.2)' }}
+              />
+            </div>
             <span className="font-display text-xl font-bold text-crypto-accent group-hover:text-crypto-electric transition-colors">
               {SITE_CONFIG.name}
             </span>
