@@ -53,8 +53,8 @@ export default function ServicesPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                We don&rsquo;t just consult — we execute. Serving both traditional Web2 companies and innovative Web3 projects, 
-                we deliver end-to-end product development, design, marketing, and strategic partnerships to bring your vision to life.
+                We don&rsquo;t just consult — we execute. From building traditional websites and apps to launching DeFi protocols and NFT platforms, 
+                we deliver complete product development, design, marketing, and strategic partnerships across Web2 and Web3.
               </p>
             </div>
           </div>

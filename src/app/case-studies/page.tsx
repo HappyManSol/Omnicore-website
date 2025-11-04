@@ -35,8 +35,8 @@ export default function CaseStudiesPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                From traditional companies embracing blockchain to Web3-native startups, see how we&rsquo;ve helped diverse clients 
-                build products, launch successfully, and achieve exceptional growth.
+                From SaaS platforms and mobile apps to DeFi protocols and NFT marketplaces — see how we&rsquo;ve helped clients 
+                across Web2 and Web3 build, launch, and grow successfully.
               </p>
             </div>
           </div>

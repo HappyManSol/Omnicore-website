@@ -42,8 +42,8 @@ export default function AboutPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                We&rsquo;re a full-service agency serving both Web2 companies exploring blockchain and Web3 native projects. 
-                From concept to launch to growth, we build, market, and scale your success.
+                We&rsquo;re a full-service agency for Web2 and Web3 projects. 
+                Whether you need traditional development and marketing or specialized blockchain solutions, we build, launch, and grow your success.
               </p>
             </div>
           </div>
