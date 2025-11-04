@@ -23,7 +23,7 @@ export default function Header() {
         <div className="flex items-center gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-3 group">
             <Image 
-              src="/logo.png" 
+              src="/images/OMNICORE.png" 
               alt="OmniCore Solutions Logo" 
               width={40} 
               height={40}
