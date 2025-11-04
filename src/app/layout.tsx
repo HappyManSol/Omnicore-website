@@ -71,9 +71,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/images/OMNICORE TRANSPARENT.png",
-    shortcut: "/images/OMNICORE TRANSPARENT.png",
-    apple: "/images/OMNICORE TRANSPARENT.png",
+    icon: "/images/OMNICORE.png",
+    shortcut: "/images/OMNICORE.png",
+    apple: "/images/OMNICORE.png",
   },
   manifest: "/site.webmanifest",
 };
