@@ -28,7 +28,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-lg text-muted-foreground md:text-xl max-w-3xl mx-auto">
-            Full-service agency for Web2 and Web3 projects. We build websites, apps, and marketing campaigns, plus navigate the Web3 space when you&rsquo;re ready.
+            We deliver complete digital solutions from websites and mobile apps to DeFi protocols and NFT platforms. Our team handles development, design, marketing, and partnerships so you can focus on what matters most: growing your business.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
