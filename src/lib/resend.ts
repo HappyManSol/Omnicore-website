@@ -25,8 +25,8 @@ export async function sendContactEmail({
 
   try {
     const { data, error } = await resend.emails.send({
-      from: "OmniCore Solutions <noreply@omnicore.solutions>",
-      to: ["hello@omnicore.solutions"], // Replace with actual recipient email
+      from: "OmniCore Solutions <noreply@omnicoresolutions.io>",
+      to: ["info@omnicoresolutions.io"],
       replyTo: email,
       subject: `New Contact Form Submission from ${name}`,
       html: `
