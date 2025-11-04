@@ -42,8 +42,7 @@ export default function AboutPage() {
                 </span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                {SITE_CONFIG.name} is your trusted partner in navigating the complex world of 
-                Web2 and Web3 technologies.
+                We&rsquo;re a full-service Web2 and Web3 agency that builds, launches, and grows your projects from concept to success.
               </p>
             </div>
           </div>

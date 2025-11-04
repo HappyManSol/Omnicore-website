@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="mb-6 inline-flex items-center rounded-full border border-crypto-accent/30 bg-crypto-grey-900/80 backdrop-blur-sm px-4 py-1.5 text-sm">
             <Sparkles className="mr-2 h-4 w-4 text-crypto-accent" />
             <span className="text-crypto-accent">
-              Web2 + Web3 Consultancy
+              Full-Service Web2 + Web3 Agency
             </span>
           </div>
 

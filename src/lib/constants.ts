@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: "OmniCore Solutions",
   altName: "OmniCore Business Services",
-  description: "Web2 + Web3 consultancy and one-stop shop for product, growth, partnerships.",
+  description: "Full-service Web2 + Web3 agency specializing in product development, marketing, partnerships, and growth.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://omnicore.vercel.app",
   ogImage: "/images/Your paragraph text.png",
   links: {

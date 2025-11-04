@@ -47,14 +47,14 @@ export default function ServicesPage() {
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-                Your One-Stop Shop for{" "}
+                Full-Service{" "}
                 <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
-                  Web3 Success
+                  Web3 Agency
                 </span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                From product development to go-to-market strategy, we provide comprehensive solutions 
-                to help your project thrive in the Web2 and Web3 ecosystem.
+                We don&rsquo;t just consult — we execute. From product development and design to marketing campaigns and strategic partnerships, 
+                we&rsquo;re your complete in-house team for Web2 and Web3 success.
               </p>
             </div>
           </div>
