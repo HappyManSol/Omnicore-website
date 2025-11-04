@@ -36,14 +36,15 @@ export default function AboutPage() {
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-                Building the Future of{" "}
+                Building{" "}
                 <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
-                  Web3 Together
-                </span>
+                  Digital Excellence
+                </span>{" "}
+                Across All Platforms
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                We&rsquo;re a full-service agency for Web2 and Web3 projects. 
-                Whether you need traditional development and marketing or specialized blockchain solutions, we build, launch, and grow your success.
+                From building modern websites and mobile apps to launching cutting-edge blockchain solutions, 
+                we&rsquo;re your complete development, design, and marketing partner for Web2 and Web3.
               </p>
             </div>
           </div>
@@ -122,6 +123,9 @@ export default function AboutPage() {
                 <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                   Why Choose OmniCore?
                 </h2>
+                <p className="mt-4 text-lg text-muted-foreground">
+                  Expertise across traditional digital and blockchain technologies
+                </p>
               </div>
 
               <div className="space-y-12">
@@ -135,12 +139,13 @@ export default function AboutPage() {
                         </div>
                       </div>
                       <div>
-                        <h3 className="font-display text-xl font-semibold text-foreground mb-3">
-                          Unmatched Expertise & Network
-                        </h3>
-                        <p className="text-muted-foreground leading-relaxed">
-                          {COMPETITION_STATEMENT}
-                        </p>
+                      <h3 className="font-display text-xl font-semibold text-foreground mb-3">
+                        Dual Expertise: Web2 & Web3
+                      </h3>
+                      <p className="text-muted-foreground leading-relaxed">
+                        We excel in both traditional digital services and blockchain innovation. From websites and apps to DeFi and NFTs, 
+                        our team delivers exceptional results across all platforms. {COMPETITION_STATEMENT}
+                      </p>
                       </div>
                     </div>
                   </CardContent>

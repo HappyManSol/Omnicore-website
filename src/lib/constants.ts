@@ -25,7 +25,7 @@ export const NAV_LINKS = [
 ] as const;
 
 export const MISSION_STATEMENT = 
-  "The web3 space is confusing and overwhelming, with many dynamics that projects often overlook before going to market. Let us leverage our wealth of knowledge to navigate these challenges for you.";
+  "Whether you need a sleek website, a powerful app, or guidance through the Web3 landscape, we bring the expertise and execution to make your project successful. We handle the complexity so you can focus on growth.";
 
 export const COMPETITION_STATEMENT = 
   "We have expertise in high places in the space, with relationships with anyone you would need for any opportunity in the market. If there is a fit for your product, we will find it.";
