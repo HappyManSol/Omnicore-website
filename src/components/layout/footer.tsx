@@ -18,7 +18,7 @@ export default function Footer() {
                 alt="OmniCore Solutions" 
                 width={32} 
                 height={32}
-                className="drop-shadow-[0_0_10px_rgba(0,240,255,0.2)]"
+                className="drop-shadow-[0_0_10px_rgba(0,240,255,0.2)] animate-pulse"
               />
               <div>
                 <h3 className="font-display text-lg font-semibold text-crypto-accent">

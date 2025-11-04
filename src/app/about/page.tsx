@@ -60,7 +60,7 @@ export default function AboutPage() {
                     alt="OmniCore Solutions" 
                     width={64} 
                     height={64}
-                    className="drop-shadow-[0_0_15px_rgba(0,240,255,0.3)]"
+                    className="drop-shadow-[0_0_15px_rgba(0,240,255,0.3)] animate-pulse"
                   />
                 </div>
                 <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">

@@ -56,7 +56,7 @@ export default function ContactPage() {
                       alt="OmniCore Solutions" 
                       width={48} 
                       height={48}
-                      className="drop-shadow-[0_0_15px_rgba(0,240,255,0.3)]"
+                      className="drop-shadow-[0_0_15px_rgba(0,240,255,0.3)] animate-pulse"
                     />
                     <h2 className="font-display text-2xl font-bold text-foreground">
                       Get in touch

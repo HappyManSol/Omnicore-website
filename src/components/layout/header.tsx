@@ -27,7 +27,7 @@ export default function Header() {
               alt="OmniCore Solutions Logo" 
               width={40} 
               height={40}
-              className="transition-transform group-hover:scale-110"
+              className="transition-transform group-hover:scale-110 animate-pulse"
             />
             <span className="font-display text-xl font-bold text-crypto-accent group-hover:text-crypto-electric transition-colors">
               {SITE_CONFIG.name}
