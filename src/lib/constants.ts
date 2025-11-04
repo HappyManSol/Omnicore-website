@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   altName: "OmniCore Business Services",
   description: "Web2 + Web3 consultancy and one-stop shop for product, growth, partnerships.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://omnicore.vercel.app",
-  ogImage: "/og-default.png",
+  ogImage: "/images/Your paragraph text.png",
   links: {
     twitter: "https://x.com/OmniCoreSOL",
     linkedin: "https://linkedin.com/company/omnicore-solutions",
