@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { contactFormSchema } from "@/schemas/contact";
 import { sendContactEmail } from "@/lib/resend";
 import { addContactToMailchimp } from "@/lib/mailchimp";
+import { sendTelegramNotification } from "@/lib/telegram";
 
 export async function POST(request: NextRequest) {
   try {
@@ -52,6 +53,20 @@ export async function POST(request: NextRequest) {
     } catch (mailchimpError) {
       // Log the error but don't fail the request
       console.error("Failed to add contact to Mailchimp:", mailchimpError);
+    }
+
+    // Send Telegram notification (non-blocking)
+    try {
+      await sendTelegramNotification({
+        name,
+        email,
+        company,
+        phone,
+        message,
+      });
+    } catch (telegramError) {
+      // Log the error but don't fail the request
+      console.error("Failed to send Telegram notification:", telegramError);
     }
 
     return NextResponse.json(
