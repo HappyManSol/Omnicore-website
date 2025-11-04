@@ -88,24 +88,36 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               <li>
-                <span className="text-sm text-muted-foreground">
+                <Link
+                  href="/services"
+                  className="text-sm text-muted-foreground hover:text-crypto-accent transition-colors"
+                >
                   Product Development
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm text-muted-foreground">
+                <Link
+                  href="/services"
+                  className="text-sm text-muted-foreground hover:text-crypto-accent transition-colors"
+                >
                   Marketing & GTM
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm text-muted-foreground">
+                <Link
+                  href="/services"
+                  className="text-sm text-muted-foreground hover:text-crypto-accent transition-colors"
+                >
                   Partnerships
-                </span>
+                </Link>
               </li>
               <li>
-                <span className="text-sm text-muted-foreground">
+                <Link
+                  href="/services"
+                  className="text-sm text-muted-foreground hover:text-crypto-accent transition-colors"
+                >
                   Web2 ↔ Web3 Bridges
-                </span>
+                </Link>
               </li>
             </ul>
           </div>
