@@ -34,9 +34,9 @@ export default function AboutPage() {
         <section className="relative overflow-hidden bg-gradient-to-b from-background to-muted/20 py-20 md:py-28">
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
-              <h1 className="font-display text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
+              <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
                 Building the Future of{" "}
-                <span className="bg-gradient-to-r from-blue to-purple bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
                   Web3 Together
                 </span>
               </h1>
