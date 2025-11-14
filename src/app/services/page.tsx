@@ -114,7 +114,7 @@ export default function ServicesPage() {
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3 (light support in Tier 1)
+                      Included in: Tier 2 & Tier 3
                     </Badge>
                   </div>
                 </CardHeader>
@@ -148,7 +148,7 @@ export default function ServicesPage() {
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3 (light edits in Tier 1)
+                      Included in: Tier 2 & Tier 3
                     </Badge>
                   </div>
                 </CardHeader>
@@ -182,7 +182,7 @@ export default function ServicesPage() {
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3 (strategy-only in Tier 1)
+                      Included in: Tier 2 & Tier 3
                     </Badge>
                   </div>
                 </CardHeader>
