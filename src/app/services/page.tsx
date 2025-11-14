@@ -261,7 +261,7 @@ export default function ServicesPage() {
               <Card className="border-2 bg-background">
                 <CardContent className="p-8 md:p-12">
                   <p className="text-lg text-foreground mb-8 leading-relaxed">
-                    You don&rsquo;t need more vendors or disconnected freelancers. You need one partner who understands product, growth, and user psychology, with token/economy support in the background when needed.
+                    You don&rsquo;t need more vendors or disconnected freelancers. You need one partner who understands product, growth, and user psychology, with token/economy support when needed.
                   </p>
                   
                   <ul className="space-y-4 mb-8">
