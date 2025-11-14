@@ -212,7 +212,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Token & Economy Support</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    Economy guidance that quietly supports your product — never steals the spotlight.
+                    Economy guidance that quietly supports your product, never steals the spotlight.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -261,7 +261,7 @@ export default function ServicesPage() {
               <Card className="border-2 bg-background">
                 <CardContent className="p-8 md:p-12">
                   <p className="text-lg text-foreground mb-8 leading-relaxed">
-                    You don&rsquo;t need more vendors or disconnected freelancers. You need one partner who understands product, growth, and user psychology — with token/economy support in the background when needed.
+                    You don&rsquo;t need more vendors or disconnected freelancers. You need one partner who understands product, growth, and user psychology, with token/economy support in the background when needed.
                   </p>
                   
                   <ul className="space-y-4 mb-8">
