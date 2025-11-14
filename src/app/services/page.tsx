@@ -110,7 +110,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Token & Economy Support</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    Economy guidance that quietly supports your product, never steals the spotlight.
+                    Economy guidance that quietly supports your product, never steals the spotlight. (For Web3)
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
