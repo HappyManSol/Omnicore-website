@@ -7,43 +7,52 @@ import { Badge } from "@/components/ui/badge";
 const TIERS = [
   {
     tier: 1,
-    title: "Strategy Advisory Retainer",
-    subheading: "High-level guidance, minimal execution.",
-    description: "For clients who already have execution capability but need senior insight and build muscle sparingly. We provide strategic oversight while you lead the work.",
+    title: "Tier 1 — Strategic Advisory + Light Execution",
+    subheading: "For founders who need clarity, direction, and senior-level decision support.",
+    description: "You get a seasoned operator in your corner — weekly calls, async support, and direct help with the most important pieces.",
     bullets: [
-      "Review and feedback on your website build (you do the work, we lead it)",
-      "Marketing strategy session + monthly check-in to adjust the strategy",
-      "Tokenomics sketch-work: we collaborate on token models, we deliver the draft",
+      "Website edits, improvements, or rapid fixes",
+      "Tokenomics review, emissions plan drafting, reward loop sketches",
+      "Marketing strategy + monthly optimization",
+      "Roadmap corrections and prioritization",
+      "Pitch deck, fundraising narrative, and partner prep",
+      "Priority DM/Slack access",
     ],
-    bestFor: "Clients who already have execution capability but need your senior insight + your build muscle sparingly.",
+    bestFor: "Best for teams who already have execution capability but need direction, validation, and correction from someone who understands Web2 + Web3 in one brain.",
     startsAt: "Custom monthly retainer",
   },
   {
     tier: 2,
-    title: "Product & Go-To-Market Build",
-    subheading: "We are doing the build, we lead, we deliver.",
-    description: "For clients who need a product, brand, website, and GTM launched but may not need a long-term embed. We take full ownership of execution and delivery.",
+    title: "Tier 2 — Product, Tokenomics & Launch Build",
+    subheading: "For teams preparing to launch and needing a partner who actually builds the foundation.",
+    description: "This is where OmniCore steps in and does the hard work — the website, the token model, the GTM plan, and the product structure.",
     bullets: [
-      "Build of your website (using Cursor or similar), with us managing design/development as lead",
-      "Full marketing strategy: from brand messaging to digital campaign plans",
-      "Tokenomics: we build and deliver the token model, emission schedule, reward loops",
-      "Launch plan and implementation steps (we manage/execute or supervise)",
+      "Full website build or rebuild (Next.js, responsive, optimized)",
+      "Tokenomics design: supply, emissions, sinks, sources, reward loops",
+      "Brand + messaging framework",
+      "Complete GTM strategy, content structure, and launch sequence",
+      "Community and user funnel setup",
+      "Milestone-based reporting and KPI planning",
+      "Team coordination across dev, design, and marketing",
     ],
-    bestFor: "Clients who need a product/brand/website/GTM launched but may not need a long-term embed.",
+    bestFor: "Best for teams heading toward a major launch, token event, or fundraising round who need their ecosystem built correctly the first time.",
     startsAt: "Project-based or 3–6 month retainers",
   },
   {
     tier: 3,
-    title: "Full Web2 + Web3 Growth Partner",
-    subheading: "We become part of your ecosystem — execution, growth, iteration.",
-    description: "For scale-stage companies or ecosystems that need an external partner doing the heavy lifting. We operate as your embedded execution and growth team.",
+    title: "Tier 3 — Embedded Growth & Product Partner",
+    subheading: "For ecosystems, protocols, and studios that need a long-term external operator.",
+    description: "This is the closest thing to hiring a Head of Product, Head of Growth, and Tokenomics Lead — all in one partner.",
     bullets: [
-      "Ongoing website/asset builds (new features, updates, web pages)",
-      "Full marketing program: ongoing campaigns, content, community growth, analytics",
-      "Tokenomics oversight: we monitor the metrics, adjust, optimize, tie to user behaviour",
-      "Partnerships, ecosystem growth, multi-product support",
+      "Continuous website development and new feature rollouts",
+      "Full tokenomics management, balancing, and emissions updates",
+      "Monthly launch campaigns, marketing execution, and content direction",
+      "Multi-product ecosystem and roadmap planning",
+      "Funnel analysis, KPI dashboards, and performance optimization",
+      "Partnership development (launchpads, exchanges, ecosystems)",
+      "UX/UI improvements and iterative product updates",
     ],
-    bestFor: "Scale-stage companies or ecosystems that need an external partner doing the heavy lifting.",
+    bestFor: "Best for teams managing multiple products or economies who want long-term operational support without adding multiple full-time salaries.",
     startsAt: "Long-term retainer or revenue-aligned structures",
   },
 ] as const;
@@ -54,11 +63,10 @@ export default function EngagementTiers() {
       <div className="container">
         <div className="mx-auto max-w-3xl text-center mb-16">
           <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl mb-6">
-            Engagement Models Built for Real Founders
+            How We Work: Three Ways To Engage OmniCore
           </h2>
           <p className="text-lg text-muted-foreground">
-            Whether you need a strategic advisor, a build partner, or a full-stack Web2 + Web3 team, 
-            OmniCore works in three clear tiers so you always know what you&rsquo;re getting and what outcomes to expect.
+            Every founder needs a different level of support. Some just need direction, some need the foundation built, and some need a long-term operator. OmniCore works in three tiers so you always know what you&rsquo;re getting.
           </p>
         </div>
 
