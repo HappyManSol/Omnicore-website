@@ -39,7 +39,11 @@ export default function ServicesPage() {
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-                Work With OmniCore: The Partner Founders Call When They Can&rsquo;t Afford to Guess
+                Work With{" "}
+                <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
+                  OmniCore
+                </span>
+                : The Partner Founders Call When They Can&rsquo;t Afford to Guess
               </h1>
               <div className="mt-6 space-y-4 text-lg text-muted-foreground md:text-xl">
                 <p>

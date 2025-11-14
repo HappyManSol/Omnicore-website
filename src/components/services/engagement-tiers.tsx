@@ -63,7 +63,14 @@ export default function EngagementTiers() {
       <div className="container">
         <div className="mx-auto max-w-3xl text-center mb-16">
           <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl mb-6">
-            How We Work: Three Ways To Engage OmniCore
+            How We Work:{" "}
+            <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
+              Three Ways
+            </span>{" "}
+            To Engage{" "}
+            <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
+              OmniCore
+            </span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Every founder needs a different level of support. Some just need direction, some need the foundation built, and some need a long-term operator. OmniCore works in three tiers so you always know what you&rsquo;re getting.
