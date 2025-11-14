@@ -54,7 +54,7 @@ export default function ServicesPage() {
                   OmniCore helps founders ship, fix, and scale products without hiring a full in-house team.
                 </p>
                 <p>
-                  We focus on clear roadmaps, sharp execution, and measurable growth.
+                  We focus on clear roadmaps, sharp execution, and measurable growth. Token and economy guidance stays in the background — supporting your product instead of distracting from it.
                 </p>
               </div>
             </div>
