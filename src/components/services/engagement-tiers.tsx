@@ -8,47 +8,48 @@ const TIERS = [
   {
     tier: 1,
     title: "Tier 1 — Advisory + Light Execution",
-    subheading: "Senior guidance with targeted hands-on help.",
-    description: "You keep your team moving; we keep your product and growth decisions clean, focused, and aligned.",
+    subheading: "Senior oversight with targeted hands-on help.",
+    description: "You run the day-to-day; we keep your product and growth decisions tight, aligned, and strategic.",
     bullets: [
       "Weekly or bi-weekly strategy calls",
       "Feedback on decks, roadmaps, and key product docs",
-      "Website and funnel tweaks as needed",
-      "High-level review of token and economy plans when relevant",
+      "Website and funnel improvements when needed",
+      "High-level review of token/economy plans if applicable",
     ],
-    bestFor: "Best for teams with execution in place that need a senior operator to sanity-check direction.",
+    bestFor: "Teams with execution in place that need a senior operator for clarity and direction.",
     startsAt: "Custom monthly retainer",
   },
   {
     tier: 2,
     title: "Tier 2 — Product & Launch Build",
-    subheading: "Foundation built properly, end to end.",
-    description: "We design and build the core of your product and launch: website, flows, brand, and go-to-market.",
+    subheading: "The core of your product and launch built properly end-to-end.",
+    description: "We design and build the foundation: product flows, brand, website, and go-to-market — everything needed to launch confidently.",
     bullets: [
       "Full website build or rebuild (Next.js, responsive)",
-      "Clear product flows, user journeys, and priorities",
-      "Brand and messaging framework that resonates",
+      "Clear product flows, user journeys, and feature priorities",
+      "Brand and messaging framework",
       "Go-to-market plan and launch sequence",
       "Funnel and community setup",
-      "Quiet token and economy support where needed, not as the main show",
+      "Quiet token/economy support where relevant",
     ],
-    bestFor: "Best for teams heading into a launch or raise that can&rsquo;t afford to get the basics wrong.",
+    bestFor: "Teams preparing for launch or fundraising who need a solid, cohesive foundation.",
     startsAt: "Project-based or 3–6 month retainers",
   },
   {
     tier: 3,
     title: "Tier 3 — Embedded Product & Growth Partner",
-    subheading: "An external product and growth lead, on call.",
-    description: "We plug in alongside leadership and help run product and growth long-term, with token and economy support sitting quietly in the background.",
+    subheading: "An external product and growth lead on call.",
+    description: "We embed alongside leadership and help run product and growth long-term, with economy support only when needed.",
     bullets: [
-      "Ongoing website and feature development",
+      "Continuous website and feature development",
       "Product roadmap ownership and prioritization",
       "Monthly campaigns and growth execution",
-      "Multi-product ecosystem planning and KPI tracking",
-      "Partnership and ecosystem development",
-      "Periodic economy checks only when applicable",
+      "Multi-product ecosystem planning",
+      "KPI tracking and optimization",
+      "Partnerships and ecosystem development",
+      "Occasional economy check-ins when applicable",
     ],
-    bestFor: "Best for ecosystems and studios managing multiple products or live economies.",
+    bestFor: "Studios and teams with multiple products or ongoing growth needs.",
     startsAt: "Long-term retainer or revenue-aligned structures",
   },
 ] as const;
@@ -65,7 +66,7 @@ export default function EngagementTiers() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Three engagement levels, depending on how deep you need us plugged into your product and growth.
+            Three engagement levels depending on how deep you need us embedded into your product and growth.
           </p>
         </div>
 

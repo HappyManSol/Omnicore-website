@@ -76,7 +76,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Product & Ecosystem Development</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    We turn ideas into clear, shippable products and ecosystems users actually understand.
+                    We turn ideas into clear, usable products and ecosystems.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -92,11 +92,11 @@ export default function ServicesPage() {
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Product flow and UX clean-up</span>
+                      <span>Product flow and UX refinement</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Web2 ↔ Web3 or cross-chain migration strategy</span>
+                      <span>Web2 ↔ Web3 or cross-chain transitions</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -110,11 +110,11 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Website & Brand Buildout</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    We build sites and brands that explain what you do in seconds, not paragraphs.
+                    Sites and brands that communicate value in seconds.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3
+                      Included in: Tier 2 & Tier 3 (light edits in Tier 1)
                     </Badge>
                   </div>
                 </CardHeader>
@@ -130,7 +130,7 @@ export default function ServicesPage() {
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Brand identity and messaging that matches your audience</span>
+                      <span>Brand identity and messaging</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -144,11 +144,11 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Marketing & Growth Engine</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    We align strategy, content, and funnels so growth isn&rsquo;t just &ldquo;posting more,&rdquo; but moving real metrics.
+                    Growth systems built around real user behavior, not guesswork.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3
+                      Included in: Tier 2 & Tier 3 (strategy-only in Tier 1)
                     </Badge>
                   </div>
                 </CardHeader>
@@ -164,47 +164,13 @@ export default function ServicesPage() {
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Partnership and ecosystem growth</span>
+                      <span>Partnership and ecosystem expansion</span>
                     </li>
                   </ul>
                 </CardContent>
               </Card>
 
-              {/* Service 4: Token & Economy Support */}
-              <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
-                <CardHeader>
-                  <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
-                    <ArrowLeftRight className="h-7 w-7" />
-                  </div>
-                  <CardTitle className="text-2xl">Token & Economy Support</CardTitle>
-                  <CardDescription className="text-base mt-3">
-                    We make sure your token and in-app economy support the product instead of fighting it.
-                  </CardDescription>
-                  <div className="mt-4">
-                    <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3
-                    </Badge>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>High-level review of token and reward structures</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Feedback on emissions, sinks, and incentives</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Occasional check-ins on live economy health</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              {/* Service 5: Launch Systems */}
+              {/* Service 4: Launch Systems */}
               <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur md:col-span-2">
                 <CardHeader>
                   <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
@@ -212,7 +178,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Launch Systems</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    We turn launches into repeatable systems instead of one-off events.
+                    Launches delivered as repeatable systems, not one-off pushes.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -228,11 +194,45 @@ export default function ServicesPage() {
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Product and feature launch coordination</span>
+                      <span>Product + feature launch coordination</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Post-launch review and iteration</span>
+                      <span>Post-launch analysis and iteration</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              {/* Service 5: Token & Economy Support */}
+              <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
+                <CardHeader>
+                  <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
+                    <ArrowLeftRight className="h-7 w-7" />
+                  </div>
+                  <CardTitle className="text-2xl">Token & Economy Support</CardTitle>
+                  <CardDescription className="text-base mt-3">
+                    Economy guidance that quietly supports your product — never steals the spotlight.
+                  </CardDescription>
+                  <div className="mt-4">
+                    <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
+                      Included in: Tier 2 & Tier 3 (light support in Tier 1)
+                    </Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span>High-level review of token/reward structures</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span>Feedback on emissions, sinks, and incentives</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span>Periodic health checks for live economies</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -261,13 +261,13 @@ export default function ServicesPage() {
               <Card className="border-2 bg-background">
                 <CardContent className="p-8 md:p-12">
                   <p className="text-lg text-foreground mb-8 leading-relaxed">
-                    You don&rsquo;t need another siloed agency or one more freelancer to manage. You need one partner who sees the whole board and can actually execute.
+                    You don&rsquo;t need more vendors or disconnected freelancers. You need one partner who understands product, growth, and user psychology — with token/economy support in the background when needed.
                   </p>
                   
                   <ul className="space-y-4 mb-8">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">Product and growth under one roof, with token support in the background</span>
+                      <span className="text-foreground">Product & growth leadership under one roof</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
@@ -275,16 +275,20 @@ export default function ServicesPage() {
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">Strategic clarity with real implementation</span>
+                      <span className="text-foreground">Strategic clarity backed by real execution</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">Faster, cleaner communication than juggling multiple vendors</span>
+                      <span className="text-foreground">Faster and cleaner communication than agencies</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span className="text-foreground">Higher accountability than pure advisors</span>
                     </li>
                   </ul>
 
                   <p className="text-base text-muted-foreground leading-relaxed">
-                    OmniCore is for founders who want fewer moving parts and more accountable execution.
+                    OmniCore is for founders who want fewer moving parts and more ownership, momentum, and results.
                   </p>
                 </CardContent>
               </Card>
@@ -299,12 +303,12 @@ export default function ServicesPage() {
               <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                 Ready to{" "}
                 <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
-                  Talk
+                  Start
                 </span>
                 ?
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                If you&rsquo;re building or fixing a Web2 + Web3 product and want a single accountable partner, let&rsquo;s talk.
+                If you&rsquo;re building or fixing a product and want one accountable partner instead of five vendors, let&rsquo;s talk.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button asChild size="lg">
