@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 const TIERS = [
   {
     tier: 1,
-    title: "Tier 1 — Advisory + Light Execution",
+    title: "Tier 1 - Advisory + Light Execution",
     subheading: "Senior oversight with targeted hands-on help.",
     description: "You run the day-to-day; we keep your product and growth decisions tight, aligned, and strategic.",
     bullets: [
@@ -21,7 +21,7 @@ const TIERS = [
   },
   {
     tier: 2,
-    title: "Tier 2 — Product & Launch Build",
+    title: "Tier 2 - Product & Launch Build",
     subheading: "The core of your product and launch built properly end-to-end.",
     description: "We design and build the foundation: product flows, brand, website, and go-to-market, everything needed to launch confidently.",
     bullets: [
@@ -37,7 +37,7 @@ const TIERS = [
   },
   {
     tier: 3,
-    title: "Tier 3 — Embedded Product & Growth Partner",
+    title: "Tier 3 - Embedded Product & Growth Partner",
     subheading: "An external product and growth lead on call.",
     description: "We embed alongside leadership and help run product and growth long-term, with economy support only when needed.",
     bullets: [
