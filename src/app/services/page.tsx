@@ -102,7 +102,41 @@ export default function ServicesPage() {
                 </CardContent>
               </Card>
 
-              {/* Service 2: Website & Brand Buildout */}
+              {/* Service 2: Token & Economy Support */}
+              <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
+                <CardHeader>
+                  <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
+                    <ArrowLeftRight className="h-7 w-7" />
+                  </div>
+                  <CardTitle className="text-2xl">Token & Economy Support</CardTitle>
+                  <CardDescription className="text-base mt-3">
+                    Economy guidance that quietly supports your product, never steals the spotlight.
+                  </CardDescription>
+                  <div className="mt-4">
+                    <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
+                      Included in: Tier 2 & Tier 3 (light support in Tier 1)
+                    </Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span>High-level review of token/reward structures</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span>Feedback on emissions, sinks, and incentives</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span>Periodic health checks for live economies</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              {/* Service 3: Website & Brand Buildout */}
               <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
                 <CardHeader>
                   <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
@@ -136,7 +170,7 @@ export default function ServicesPage() {
                 </CardContent>
               </Card>
 
-              {/* Service 3: Marketing & Growth Engine */}
+              {/* Service 4: Marketing & Growth Engine */}
               <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
                 <CardHeader>
                   <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
@@ -170,7 +204,7 @@ export default function ServicesPage() {
                 </CardContent>
               </Card>
 
-              {/* Service 4: Launch Systems */}
+              {/* Service 5: Launch Systems */}
               <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur md:col-span-2">
                 <CardHeader>
                   <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
@@ -199,40 +233,6 @@ export default function ServicesPage() {
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
                       <span>Post-launch analysis and iteration</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              {/* Service 5: Token & Economy Support */}
-              <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
-                <CardHeader>
-                  <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
-                    <ArrowLeftRight className="h-7 w-7" />
-                  </div>
-                  <CardTitle className="text-2xl">Token & Economy Support</CardTitle>
-                  <CardDescription className="text-base mt-3">
-                    Economy guidance that quietly supports your product, never steals the spotlight.
-                  </CardDescription>
-                  <div className="mt-4">
-                    <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3 (light support in Tier 1)
-                    </Badge>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>High-level review of token/reward structures</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Feedback on emissions, sinks, and incentives</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Periodic health checks for live economies</span>
                     </li>
                   </ul>
                 </CardContent>
