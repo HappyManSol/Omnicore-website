@@ -23,7 +23,7 @@ const TIERS = [
     tier: 2,
     title: "Tier 2 — Product & Launch Build",
     subheading: "The core of your product and launch built properly end-to-end.",
-    description: "We design and build the foundation: product flows, brand, website, and go-to-market — everything needed to launch confidently.",
+    description: "We design and build the foundation: product flows, brand, website, and go-to-market, everything needed to launch confidently.",
     bullets: [
       "Full website build or rebuild (Next.js, responsive)",
       "Clear product flows, user journeys, and feature priorities",
