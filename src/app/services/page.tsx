@@ -50,10 +50,10 @@ export default function ServicesPage() {
               </h1>
               <div className="mt-6 space-y-4 text-lg text-muted-foreground md:text-xl">
                 <p>
-                  OmniCore isn&rsquo;t an agency and it isn&rsquo;t a contractor. It&rsquo;s a hybrid product, growth, and tokenomics partner that actually builds, fixes, and executes.
+                  OmniCore is a hybrid product, growth, and tokenomics partner for Web2 + Web3 teams. We help you ship, fix, and scale without hiring a full in-house team.
                 </p>
                 <p>
-                  Whether you&rsquo;re structuring your first token, preparing a launch, rebuilding your brand, or shipping a new product feature — OmniCore gives you clarity, direction, and execution without the cost of hiring a full team.
+                  From first token design to post-launch optimization, we keep your roadmap, brand, and economy aligned.
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Product & Ecosystem Development</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    From first concept to live ecosystem, we help you structure products that actually make sense for users and your business. That includes roadmaps, user journeys, and the trade-offs between features, timelines, and resources.
+                    We turn ideas into clear products and ecosystems users actually understand.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -87,15 +87,15 @@ export default function ServicesPage() {
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Roadmaps, user journeys, and feature prioritization</span>
+                      <span>Roadmaps, user journeys, and feature priorities</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Product flow restructuring and UX clarity</span>
+                      <span>Product flow and UX clean-up</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Cross-chain or Web2/Web3 migration strategy</span>
+                      <span>Web2 ↔ Web3 or cross-chain migration strategy</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -109,7 +109,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Tokenomics Design & Economic Balancing</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    We design and tune token economies that don&rsquo;t break under real users. From emissions and sinks to reward loops and gameable edges, we focus on sustainability and behavior, not hype.
+                    We design and tune token economies so incentives work in practice, not just on paper.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -121,15 +121,15 @@ export default function ServicesPage() {
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Token supply, distribution, and emissions schedules</span>
+                      <span>Supply, distribution, and emissions structure</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Staking, rewards, and gamified incentive structures</span>
+                      <span>Staking, rewards, and gamified incentives</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Live economy analysis and ongoing optimization</span>
+                      <span>Live economy review and ongoing adjustments</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -143,7 +143,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Website & Brand Buildout</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    Your website is often the first and only impression you get with investors and users. We design and build sites that clearly communicate what you do, why it matters, and how to get started.
+                    We build sites and brands that explain what you do in seconds, not paragraphs.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -163,7 +163,7 @@ export default function ServicesPage() {
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Brand identity, messaging, and positioning</span>
+                      <span>Brand identity and messaging</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -177,7 +177,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Marketing & Growth Engine</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    We build the growth system around your product — not just campaigns in isolation. Strategy, funnels, and execution all aligned to your actual user behavior and KPIs.
+                    We align strategy, content, and funnels so growth isn&rsquo;t just &ldquo;posting more.&rdquo;
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -189,15 +189,15 @@ export default function ServicesPage() {
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>GTM plan, content strategy, and campaign structure</span>
+                      <span>Go-to-market and content strategy</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Funnel creation, email sequences, and user activation flows</span>
+                      <span>Funnel and email sequence design</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Partnership growth and ecosystem reach</span>
+                      <span>Partnership and ecosystem growth</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -211,7 +211,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Launch Execution</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    Launches aren&rsquo;t one-day events — they&rsquo;re systems. We coordinate product, token, marketing, and partnerships so your launch doesn&rsquo;t fizzle after week one.
+                    We turn launches into repeatable systems instead of one-off events.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -223,15 +223,15 @@ export default function ServicesPage() {
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Event-based roadmaps and milestones</span>
+                      <span>Launch roadmaps and milestones</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Token and product launch synchronization</span>
+                      <span>Token + product launch coordination</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Post-launch analysis and iteration</span>
+                      <span>Post-launch review and iteration</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -246,45 +246,44 @@ export default function ServicesPage() {
             <div className="mx-auto max-w-4xl">
               <div className="text-center mb-12">
                 <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl">
-                  Why OmniCore?
+                  Why{" "}
+                  <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
+                    Founders
+                  </span>{" "}
+                  Choose{" "}
+                  <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
+                    OmniCore
+                  </span>
                 </h2>
               </div>
               
               <Card className="border-2 bg-background">
                 <CardContent className="p-8 md:p-12">
                   <p className="text-lg text-foreground mb-8 leading-relaxed">
-                    Founders don&rsquo;t need more disconnected agencies or one-dimensional contractors. They need a partner who understands how product, incentives, brand, and growth fit together — and is willing to take responsibility for outcomes.
+                    You don&rsquo;t need another siloed agency or one more freelancer to manage. You need one partner who sees the whole board and can actually execute.
                   </p>
                   
                   <ul className="space-y-4 mb-8">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">One partner who understands product, design, tokenomics, and growth</span>
+                      <span className="text-foreground">Product, tokenomics, brand, and growth under one roof</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">Strategic clarity backed by hands-on execution</span>
+                      <span className="text-foreground">Web2 + Web3 experience in a single operator</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">Faster turnaround than traditional agencies</span>
+                      <span className="text-foreground">Strategic clarity with real implementation</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">Cleaner communication than juggling multiple freelancers</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">Higher accountability than pure advisors</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">Web2 and Web3 experience in a single operating system</span>
+                      <span className="text-foreground">Faster, cleaner communication than juggling multiple vendors</span>
                     </li>
                   </ul>
 
                   <p className="text-base text-muted-foreground leading-relaxed">
-                    OmniCore is built for founders who want fewer moving parts and more ownership, clarity, and momentum.
+                    OmniCore is for founders who want fewer moving parts and more accountable execution.
                   </p>
                 </CardContent>
               </Card>
@@ -297,10 +296,14 @@ export default function ServicesPage() {
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-                Ready to Get Started?
+                Ready to{" "}
+                <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
+                  Talk
+                </span>
+                ?
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                Let&rsquo;s discuss how our services can help you achieve your goals.
+                If you&rsquo;re building or fixing a Web2 + Web3 product and want a single accountable partner, let&rsquo;s talk.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button asChild size="lg">
