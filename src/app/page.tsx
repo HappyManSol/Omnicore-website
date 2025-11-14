@@ -3,6 +3,7 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import Hero from "@/components/home/hero";
 import ServicesPreview from "@/components/home/services-preview";
+import EngagementPreview from "@/components/home/engagement-preview";
 import FeaturedCaseStudy from "@/components/home/featured-case-study";
 import LeadMagnet from "@/components/home/lead-magnet";
 import Values from "@/components/home/values";
@@ -22,6 +23,7 @@ export default function HomePage() {
       <main id="main-content">
         <Hero />
         <ServicesPreview />
+        <EngagementPreview />
         <FeaturedCaseStudy />
         <LeadMagnet />
         <Values />

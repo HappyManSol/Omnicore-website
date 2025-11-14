@@ -56,6 +56,7 @@ export const SERVICES = [
     title: "Product Management & Development",
     description: "Ship your MVP in 12 weeks, reduce time-to-market by 30%. End-to-end product strategy, development, and launch execution.",
     icon: "package",
+    tiers: [2, 3],
     details: [
       "Product strategy & roadmap",
       "Technical architecture",
@@ -67,6 +68,7 @@ export const SERVICES = [
     title: "Marketing & Go-to-Market",
     description: "Generate 3x more qualified leads with proven campaigns. We build, execute, and optimize marketing strategies that convert.",
     icon: "megaphone",
+    tiers: [2, 3],
     details: [
       "Market research & positioning",
       "Content marketing",
@@ -78,6 +80,8 @@ export const SERVICES = [
     title: "Launchpad Integration & Partnerships",
     description: "Access $5M+ in partnership opportunities. We connect you with tier-1 launchpads and strategic partners that accelerate growth.",
     icon: "rocket",
+    tiers: [3],
+    optionalTier: 2,
     details: [
       "Launchpad selection",
       "Application support",
@@ -89,6 +93,7 @@ export const SERVICES = [
     title: "Business Development & Strategic Alliances",
     description: "Close high-value partnerships 2x faster. Leverage our network to forge alliances that drive revenue and market expansion.",
     icon: "handshake",
+    tiers: [3],
     details: [
       "Partnership strategy",
       "Deal sourcing",
@@ -100,6 +105,7 @@ export const SERVICES = [
     title: "Web2 ↔ Web3 Bridges",
     description: "Seamlessly integrate blockchain with 40% lower technical debt. Expert tokenomics, smart contracts, and migration planning.",
     icon: "bridge",
+    tiers: [2, 3],
     details: [
       "Tokenomics design",
       "Integration strategy",
@@ -111,6 +117,7 @@ export const SERVICES = [
     title: "Tooling Integration & Ops",
     description: "Save 15+ hours per week with automated workflows. Enterprise-grade tools, analytics, and operational excellence.",
     icon: "settings",
+    tiers: [3],
     details: [
       "Project management setup",
       "Analytics implementation",

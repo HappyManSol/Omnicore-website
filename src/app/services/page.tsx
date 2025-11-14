@@ -16,7 +16,9 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { SERVICES, COMPETITION_STATEMENT } from "@/lib/constants";
+import EngagementTiers from "@/components/services/engagement-tiers";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -60,28 +62,48 @@ export default function ServicesPage() {
           </div>
         </section>
 
+        {/* Engagement Tiers */}
+        <EngagementTiers />
+
         {/* Services Grid */}
         <section className="py-20 md:py-28">
           <div className="container">
+            <div className="mx-auto max-w-2xl text-center mb-12">
+              <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+                Service Categories
+              </h2>
+              <p className="mt-4 text-lg text-muted-foreground">
+                Detailed breakdown of our core service offerings
+              </p>
+            </div>
             <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
               {SERVICES.map((service) => {
                 const Icon = ICON_MAP[service.icon as keyof typeof ICON_MAP];
+                const tierLabels = service.tiers.map(t => `Tier ${t}`).join(", ");
+                const optionalTier = (service as any).optionalTier 
+                  ? ` (optionally Tier ${(service as any).optionalTier})` 
+                  : "";
                 return (
-                  <Card key={service.title} className="group hover:shadow-lg transition-all hover:scale-[1.02]">
+                  <Card key={service.title} className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
                     <CardHeader>
-                      <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                      <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
                         <Icon className="h-7 w-7" />
                       </div>
                       <CardTitle className="text-2xl">{service.title}</CardTitle>
                       <CardDescription className="text-base mt-3">
                         {service.description}
                       </CardDescription>
+                      <div className="mt-4">
+                        <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
+                          Included in: {tierLabels}{optionalTier}
+                        </Badge>
+                      </div>
                     </CardHeader>
                     <CardContent>
                       <ul className="space-y-2">
                         {service.details.map((detail) => (
                           <li key={detail} className="flex items-start gap-2 text-sm text-muted-foreground">
-                            <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                            <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
                             <span>{detail}</span>
                           </li>
                         ))}
