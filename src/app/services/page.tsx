@@ -39,21 +39,22 @@ export default function ServicesPage() {
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-                The Partner{" "}
+                Product &{" "}
                 <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
-                  Founders
+                  Growth
                 </span>{" "}
-                Call When They Can&rsquo;t Afford{" "}
+                Partner for{" "}
                 <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
-                  Mistakes
-                </span>
+                  Web2 + Web3
+                </span>{" "}
+                Teams
               </h1>
               <div className="mt-6 space-y-4 text-lg text-muted-foreground md:text-xl">
                 <p>
-                  OmniCore is a hybrid product, growth, and tokenomics partner for Web2 + Web3 teams. We help you ship, fix, and scale without hiring a full in-house team.
+                  OmniCore helps founders ship, fix, and scale products without hiring a full in-house team.
                 </p>
                 <p>
-                  From first token design to post-launch optimization, we keep your roadmap, brand, and economy aligned.
+                  We focus on clear roadmaps, sharp execution, and measurable growth. Token and economy support sits behind the scenes, making sure what you build actually works long-term.
                 </p>
               </div>
             </div>
@@ -75,7 +76,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Product & Ecosystem Development</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    We turn ideas into clear products and ecosystems users actually understand.
+                    We turn ideas into clear, shippable products and ecosystems users actually understand.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -101,41 +102,7 @@ export default function ServicesPage() {
                 </CardContent>
               </Card>
 
-              {/* Service 2: Tokenomics Design & Economic Balancing */}
-              <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
-                <CardHeader>
-                  <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
-                    <ArrowLeftRight className="h-7 w-7" />
-                  </div>
-                  <CardTitle className="text-2xl">Tokenomics Design & Economic Balancing</CardTitle>
-                  <CardDescription className="text-base mt-3">
-                    We design and tune token economies so incentives work in practice, not just on paper.
-                  </CardDescription>
-                  <div className="mt-4">
-                    <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3 (light review in Tier 1)
-                    </Badge>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Supply, distribution, and emissions structure</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Staking, rewards, and gamified incentives</span>
-                    </li>
-                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Live economy review and ongoing adjustments</span>
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              {/* Service 3: Website & Brand Buildout */}
+              {/* Service 2: Website & Brand Buildout */}
               <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
                 <CardHeader>
                   <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
@@ -147,7 +114,7 @@ export default function ServicesPage() {
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3 (light edits and improvements in Tier 1)
+                      Included in: Tier 2 & Tier 3 (light edits in Tier 1)
                     </Badge>
                   </div>
                 </CardHeader>
@@ -163,13 +130,13 @@ export default function ServicesPage() {
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Brand identity and messaging</span>
+                      <span>Brand identity and messaging that matches your audience</span>
                     </li>
                   </ul>
                 </CardContent>
               </Card>
 
-              {/* Service 4: Marketing & Growth Engine */}
+              {/* Service 3: Marketing & Growth Engine */}
               <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
                 <CardHeader>
                   <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
@@ -177,7 +144,7 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Marketing & Growth Engine</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    We align strategy, content, and funnels so growth isn&rsquo;t just &ldquo;posting more.&rdquo;
+                    We align strategy, content, and funnels so growth isn&rsquo;t just &ldquo;posting more,&rdquo; but moving real metrics.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
@@ -203,13 +170,47 @@ export default function ServicesPage() {
                 </CardContent>
               </Card>
 
-              {/* Service 5: Launch Execution */}
+              {/* Service 4: Token & Economy Support */}
+              <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur">
+                <CardHeader>
+                  <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
+                    <ArrowLeftRight className="h-7 w-7" />
+                  </div>
+                  <CardTitle className="text-2xl">Token & Economy Support</CardTitle>
+                  <CardDescription className="text-base mt-3">
+                    Where needed, we make sure your token and in-app economy support the product instead of fighting it.
+                  </CardDescription>
+                  <div className="mt-4">
+                    <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
+                      Included in: Tier 2 & Tier 3 (light review in Tier 1)
+                    </Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span>High-level review of token and reward structures</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span>Feedback on emissions, sinks, and incentives</span>
+                    </li>
+                    <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
+                      <span>Occasional check-ins on live economy health</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              {/* Service 5: Launch Systems */}
               <Card className="group hover:shadow-lg transition-all hover:scale-[1.02] border-crypto-grey-800 bg-crypto-grey-900/50 backdrop-blur md:col-span-2">
                 <CardHeader>
                   <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-crypto-accent/10 text-crypto-accent group-hover:bg-crypto-accent group-hover:text-crypto-dark transition-colors">
                     <Rocket className="h-7 w-7" />
                   </div>
-                  <CardTitle className="text-2xl">Launch Execution</CardTitle>
+                  <CardTitle className="text-2xl">Launch Systems</CardTitle>
                   <CardDescription className="text-base mt-3">
                     We turn launches into repeatable systems instead of one-off events.
                   </CardDescription>
@@ -227,7 +228,7 @@ export default function ServicesPage() {
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span>Token + product launch coordination</span>
+                      <span>Product and feature launch coordination</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm text-muted-foreground">
                       <CheckCircle2 className="h-5 w-5 text-crypto-accent flex-shrink-0 mt-0.5" />
@@ -250,7 +251,7 @@ export default function ServicesPage() {
                   <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
                     Founders
                   </span>{" "}
-                  Choose{" "}
+                  Work With{" "}
                   <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
                     OmniCore
                   </span>
@@ -266,7 +267,7 @@ export default function ServicesPage() {
                   <ul className="space-y-4 mb-8">
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-foreground">Product, tokenomics, brand, and growth under one roof</span>
+                      <span className="text-foreground">Product and growth under one roof, with token support in the background</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle2 className="h-6 w-6 text-crypto-accent flex-shrink-0 mt-0.5" />

@@ -9,44 +9,46 @@ const TIERS = [
     tier: 1,
     title: "Tier 1 — Advisory + Light Execution",
     subheading: "Senior guidance with targeted hands-on help.",
-    description: "You keep your team moving; we keep decisions clean, focused, and aligned.",
+    description: "You keep your team moving; we keep your product and growth decisions clean, focused, and aligned.",
     bullets: [
       "Weekly or bi-weekly strategy calls",
-      "Feedback on decks, roadmaps, and key docs",
+      "Feedback on decks, roadmaps, and key product docs",
       "Website and funnel tweaks as needed",
-      "Tokenomics and GTM review, not full rebuild",
+      "High-level review of token and economy plans when relevant",
     ],
-    bestFor: "Teams with execution in place that need a senior operator to sanity-check direction.",
+    bestFor: "Best for teams with execution in place that need a senior operator to sanity-check direction.",
     startsAt: "Custom monthly retainer",
   },
   {
     tier: 2,
-    title: "Tier 2 — Product, Tokenomics & Launch Build",
+    title: "Tier 2 — Product & Launch Build",
     subheading: "Foundation built properly, end to end.",
-    description: "We design and build the core of your ecosystem: product, site, token model, and launch plan.",
+    description: "We design and build the core of your product and launch: website, flows, brand, and go-to-market.",
     bullets: [
       "Full website build or rebuild (Next.js, responsive)",
-      "Tokenomics design: supply, emissions, sinks, sources",
-      "Brand and messaging framework",
-      "GTM plan and launch sequence",
+      "Clear product flows, user journeys, and priorities",
+      "Brand and messaging framework that resonates",
+      "Go-to-market plan and launch sequence",
       "Funnel and community setup",
+      "Quiet token and economy support where needed, not as the main show",
     ],
-    bestFor: "Teams heading into a launch, token event, or raise that can&rsquo;t afford to get the basics wrong.",
+    bestFor: "Best for teams heading into a launch or raise that can&rsquo;t afford to get the basics wrong.",
     startsAt: "Project-based or 3–6 month retainers",
   },
   {
     tier: 3,
-    title: "Tier 3 — Embedded Growth & Product Partner",
+    title: "Tier 3 — Embedded Product & Growth Partner",
     subheading: "An external product and growth lead, on call.",
-    description: "We plug in alongside leadership and help run product, tokenomics, and growth long-term.",
+    description: "We plug in alongside leadership and help run product and growth long-term, with token and economy support sitting quietly in the background.",
     bullets: [
       "Ongoing website and feature development",
-      "Tokenomics management and economy tuning",
+      "Product roadmap ownership and prioritization",
       "Monthly campaigns and growth execution",
-      "Multi-product roadmap and KPI ownership",
-      "Partnerships and ecosystem development",
+      "Multi-product ecosystem planning and KPI tracking",
+      "Partnership and ecosystem development",
+      "Periodic economy checks only when applicable",
     ],
-    bestFor: "Ecosystems and studios managing multiple products or economies.",
+    bestFor: "Best for ecosystems and studios managing multiple products or live economies.",
     startsAt: "Long-term retainer or revenue-aligned structures",
   },
 ] as const;
@@ -63,7 +65,7 @@ export default function EngagementTiers() {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Three engagement levels, depending on how deep you need us plugged in.
+            Three engagement levels, depending on how deep you need us plugged into your product and growth.
           </p>
         </div>
 
