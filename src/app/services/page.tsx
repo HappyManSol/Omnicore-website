@@ -54,7 +54,7 @@ export default function ServicesPage() {
                   OmniCore helps founders ship, fix, and scale products without hiring a full in-house team.
                 </p>
                 <p>
-                  We focus on clear roadmaps, sharp execution, and measurable growth. Token and economy support sits behind the scenes, making sure what you build actually works long-term.
+                  We focus on clear roadmaps, sharp execution, and measurable growth.
                 </p>
               </div>
             </div>
@@ -114,7 +114,7 @@ export default function ServicesPage() {
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3 (light edits in Tier 1)
+                      Included in: Tier 2 & Tier 3
                     </Badge>
                   </div>
                 </CardHeader>
@@ -148,7 +148,7 @@ export default function ServicesPage() {
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3 (strategy only in Tier 1)
+                      Included in: Tier 2 & Tier 3
                     </Badge>
                   </div>
                 </CardHeader>
@@ -178,11 +178,11 @@ export default function ServicesPage() {
                   </div>
                   <CardTitle className="text-2xl">Token & Economy Support</CardTitle>
                   <CardDescription className="text-base mt-3">
-                    Where needed, we make sure your token and in-app economy support the product instead of fighting it.
+                    We make sure your token and in-app economy support the product instead of fighting it.
                   </CardDescription>
                   <div className="mt-4">
                     <Badge variant="outline" className="border-crypto-accent/30 text-crypto-accent bg-crypto-accent/5">
-                      Included in: Tier 2 & Tier 3 (light review in Tier 1)
+                      Included in: Tier 2 & Tier 3
                     </Badge>
                   </div>
                 </CardHeader>
