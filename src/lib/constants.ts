@@ -25,13 +25,13 @@ export const NAV_LINKS = [
 ] as const;
 
 export const MISSION_STATEMENT = 
-  "Transform your ideas into successful products. Whether it's a website, mobile app, or Web3 platform, we handle the development, design, and marketing so you can focus on scaling your business.";
+  "Help founders turn ideas into products that actually work for real users. Whether it's a website, app, or Web3 experience, we focus on clear flows, honest feedback, and steady progress so you can focus on building the business.";
 
 export const COMPETITION_STATEMENT = 
-  "We have expertise in high places in the space, with relationships with anyone you would need for any opportunity in the market. If there is a fit for your product, we will find it.";
+  "We're comfortable in both traditional and crypto-native products. That means we can help you bridge Web2 and Web3 without overcomplicating things. We also bring a strong network in the space, so if there's a genuine fit for your product, we'll work to help you find it.";
 
 export const FINANCIAL_STATEMENT = 
-  "With our help, we will make sure your project is not only successful but also planned and financed with the future in mind for long-term success.";
+  "We care about more than just launch day. We think about how your product, incentives, and operations hold up over time so you're not constantly rebuilding from scratch.";
 
 export const VALUES = [
   {
@@ -133,77 +133,22 @@ export const CASE_STUDIES = [
     title: "AI-Powered Trading Dashboard",
     client: "FlashDash",
     category: "Web2",
-    challenge: "Create a sophisticated custom trading dashboard for investors requiring real-time market data, AI-driven insights, and portfolio analytics.",
-    solution: "Developed advanced web application with AI-powered market analysis, real-time data feeds, custom alerts, portfolio tracking, and intuitive visualization tools tailored for active traders.",
-    results: "Real-time data processing with <50ms latency, AI insights improving trading decisions by 35%, 10K+ active investors, 4.8/5 user satisfaction rating.",
+    challenge: "Build a custom trading dashboard for active investors that lets them safely upload and manage their own portfolios via Google Sheets, and track the exact metrics and signals they care about in real time.",
+    solution: "Designed and developed a web application where each investor connects a secure Google Sheet as their data source, defines tickers, allocations, and custom metrics, and has the dashboard automatically sync and visualize that data. Layered real-time market data, custom alerts, and AI-assisted insights on top of their own portfolio configuration.",
+    results: "Investors can now control their own portfolio structure while using a shared, powerful dashboard UI, making it easy to experiment with strategies, monitor risk, and act quickly without being locked into a fixed set of views or hard-coded metrics.",
     image: "/images/case-studies/flashdash.jpg",
     tags: ["AI", "Trading", "Dashboard", "Analytics"],
   },
   {
-    id: "defi-protocol-launch",
-    title: "DeFi Protocol Launch",
-    client: "AquaFinance",
+    id: "web3-gaming-studio-growth",
+    title: "Leading Web3 Gaming Studio - 10k+ Concurrent Users",
+    client: "Product Optimization, Growth Systems, and Operational Support",
     category: "Web3",
-    challenge: "Launch a new DeFi protocol with complex tokenomics and regulatory considerations.",
-    solution: "Comprehensive go-to-market strategy including tokenomics design, launchpad partnership, and community building.",
-    results: "$50M TVL within 3 months, 25K+ active users, successful IDO on tier-1 launchpad.",
-    image: "/images/case-studies/defi-protocol.jpg",
-    tags: ["DeFi", "Tokenomics", "Community"],
-  },
-  {
-    id: "nft-marketplace",
-    title: "Enterprise NFT Marketplace",
-    client: "ArtChain",
-    category: "Web3",
-    challenge: "Build a white-label NFT marketplace platform for enterprise clients with custom branding.",
-    solution: "Full-stack development with Web3 integration, payment rails, and comprehensive admin dashboard.",
-    results: "Platform launched in 4 months, onboarded 5 enterprise clients, 100K+ NFTs minted.",
-    image: "/images/case-studies/nft-marketplace.jpg",
-    tags: ["NFT", "Development", "Enterprise"],
-  },
-  {
-    id: "web2-to-web3-migration",
-    title: "Web2 to Web3 Migration",
-    client: "GameVerse",
-    category: "Web2",
-    challenge: "Migrate existing gaming platform to incorporate blockchain rewards and NFT items.",
-    solution: "Phased migration strategy with hybrid architecture, preserving user experience while adding Web3 features.",
-    results: "Zero downtime migration, 40% increase in user engagement, new revenue stream from NFT sales.",
-    image: "/images/case-studies/gaming-migration.jpg",
-    tags: ["Gaming", "Migration", "NFT"],
-  },
-  {
-    id: "dao-governance",
-    title: "DAO Governance Platform",
-    client: "CommunityDAO",
-    category: "Web3",
-    challenge: "Create a decentralized governance platform for a community of 50K+ members.",
-    solution: "Custom DAO tooling with vote delegation, proposal templates, and on-chain execution.",
-    results: "200+ proposals executed, 70% voter participation rate, seamless governance operations.",
-    image: "/images/case-studies/dao-governance.jpg",
-    tags: ["DAO", "Governance", "Tooling"],
-  },
-  {
-    id: "saas-analytics",
-    title: "SaaS Analytics Dashboard",
-    client: "MetricsFlow",
-    category: "Web2",
-    challenge: "Build real-time analytics platform for tracking multi-chain crypto transactions.",
-    solution: "Scalable data pipeline with custom indexers and intuitive dashboard with advanced filtering.",
-    results: "Processing 1M+ transactions/day, <100ms query latency, 95% customer satisfaction.",
-    image: "/images/case-studies/analytics-dashboard.jpg",
-    tags: ["Analytics", "SaaS", "Development"],
-  },
-  {
-    id: "partnership-strategy",
-    title: "Strategic Partnership Program",
-    client: "ChainBridge",
-    category: "Web3",
-    challenge: "Establish partnerships with 10+ major blockchain ecosystems for cross-chain protocol.",
-    solution: "Comprehensive BD strategy with targeted outreach, value proposition development, and deal structuring.",
-    results: "12 partnerships secured in 6 months, $5M in partnership grants, 3 technical integrations live.",
-    image: "/images/case-studies/partnerships.jpg",
-    tags: ["Partnerships", "BD", "Strategy"],
+    challenge: "The studio had strong traction but was struggling with user flow clarity, operational bottlenecks, and maintaining high concurrency without degrading user experience. They needed a structured product approach to sustain momentum and prepare for future fundraising.",
+    solution: "We rebuilt their core product flows, streamlined onboarding, clarified key user touchpoints, and introduced a clean operational framework. This included website adjustments, growth funnel improvements, and behind-the-scenes economy support where necessary.",
+    results: "Maintained over 10,000 concurrent users during peak activity. Reduced user drop-off at key interaction points. Improved internal product clarity, enabling faster iteration cycles. Supported the company's ability to raise $6 million within six months. What We Delivered: Product flow refinement. Growth funnel improvements. UX clarity and user journey mapping. Operational structure for faster product shipping. Quiet token/economy support when relevant.",
+    image: "/images/case-studies/web3-gaming.jpg",
+    tags: ["Product", "Growth", "Web3", "Gaming", "Operations"],
   },
 ] as const;
 

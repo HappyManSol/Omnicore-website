@@ -28,7 +28,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-lg text-muted-foreground md:text-xl max-w-3xl mx-auto">
-            We deliver complete digital solutions from websites and mobile apps to DeFi protocols and NFT platforms. Our team handles development, design, marketing, and partnerships so you can focus on what matters most: growing your business.
+            OmniCore works with founders to make products clearer, launches smoother, and growth more predictable. That means clean user flows, simple roadmaps, and hands-on help where it actually moves the needle.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -47,20 +47,20 @@ export default function Hero() {
 
           <div className="mt-16 grid grid-cols-2 gap-8 md:grid-cols-4 items-center justify-center">
             <div className="flex flex-col items-center p-4 rounded-lg border border-crypto-accent/20 bg-crypto-grey-900/50 backdrop-blur">
-              <p className="font-display text-3xl font-bold text-crypto-accent">50+</p>
-              <p className="text-sm text-crypto-grey-400">Projects Delivered</p>
+              <p className="font-display text-lg font-bold text-crypto-accent mb-2">Product-First</p>
+              <p className="text-sm text-crypto-grey-400 text-center">Everything starts from what your users actually do, not what sounds cool on a slide.</p>
             </div>
             <div className="flex flex-col items-center p-4 rounded-lg border border-crypto-accent/20 bg-crypto-grey-900/50 backdrop-blur">
-              <p className="font-display text-3xl font-bold text-crypto-accent">$200M+</p>
-              <p className="text-sm text-crypto-grey-400">Capital Raised</p>
+              <p className="font-display text-lg font-bold text-crypto-accent mb-2">Hands-On Execution</p>
+              <p className="text-sm text-crypto-grey-400 text-center">We don't just advise from the sidelines - we help you build and ship.</p>
             </div>
             <div className="flex flex-col items-center p-4 rounded-lg border border-crypto-accent/20 bg-crypto-grey-900/50 backdrop-blur">
-              <p className="font-display text-3xl font-bold text-crypto-accent">100K+</p>
-              <p className="text-sm text-crypto-grey-400">Users Onboarded</p>
+              <p className="font-display text-lg font-bold text-crypto-accent mb-2">Web2 + Web3 Experience</p>
+              <p className="text-sm text-crypto-grey-400 text-center">Comfortable in both traditional and crypto-native products.</p>
             </div>
             <div className="flex flex-col items-center p-4 rounded-lg border border-crypto-accent/20 bg-crypto-grey-900/50 backdrop-blur">
-              <p className="font-display text-3xl font-bold text-crypto-accent">98%</p>
-              <p className="text-sm text-crypto-grey-400">Client Satisfaction</p>
+              <p className="font-display text-lg font-bold text-crypto-accent mb-2">Straightforward Communication</p>
+              <p className="text-sm text-crypto-grey-400 text-center">Clear expectations, honest feedback, and no hype.</p>
             </div>
           </div>
         </div>

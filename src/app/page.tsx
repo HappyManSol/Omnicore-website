@@ -25,7 +25,7 @@ export default function HomePage() {
         <ServicesPreview />
         <EngagementPreview />
         <FeaturedCaseStudy />
-        <LeadMagnet />
+        {/* <LeadMagnet /> */}
         <Values />
         <CTASection />
       </main>

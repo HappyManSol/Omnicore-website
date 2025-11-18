@@ -38,13 +38,12 @@ export default function AboutPage() {
               <h1 className="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
                 Building{" "}
                 <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
-                  Digital Excellence
+                  Strong Products
                 </span>{" "}
-                Across All Platforms
+                Across Web2 + Web3
               </h1>
               <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-                From building modern websites and mobile apps to launching cutting-edge blockchain solutions, 
-                we&rsquo;re your complete development, design, and marketing partner for Web2 and Web3.
+                From modern Web2 products to crypto-native experiences, OmniCore helps founders make their products clearer, easier to use, and easier to grow. Instead of a big agency team, you get a hands-on partner focused on what actually moves your product forward.
               </p>
             </div>
           </div>
@@ -143,8 +142,7 @@ export default function AboutPage() {
                         Dual Expertise: Web2 & Web3
                       </h3>
                       <p className="text-muted-foreground leading-relaxed">
-                        We excel in both traditional digital services and blockchain innovation. From websites and apps to DeFi and NFTs, 
-                        our team delivers exceptional results across all platforms. {COMPETITION_STATEMENT}
+                        {COMPETITION_STATEMENT}
                       </p>
                       </div>
                     </div>
@@ -182,36 +180,33 @@ export default function AboutPage() {
             <div className="mx-auto max-w-5xl">
               <div className="text-center mb-12">
                 <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-                  Our Impact
+                  How We Work With Founders
                 </h2>
-                <p className="mt-4 text-lg text-muted-foreground">
-                  Numbers that speak to our commitment and success.
-                </p>
               </div>
 
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                 <Card className="text-center">
                   <CardContent className="pt-8 pb-8">
-                    <p className="font-display text-4xl font-bold text-primary">50+</p>
-                    <p className="mt-2 text-muted-foreground">Projects Delivered</p>
+                    <p className="font-display text-xl font-bold text-primary mb-2">Product-First</p>
+                    <p className="text-muted-foreground">We start from user behavior and real product needs, not just hype.</p>
                   </CardContent>
                 </Card>
                 <Card className="text-center">
                   <CardContent className="pt-8 pb-8">
-                    <p className="font-display text-4xl font-bold text-primary">$200M+</p>
-                    <p className="mt-2 text-muted-foreground">Capital Raised</p>
+                    <p className="font-display text-xl font-bold text-primary mb-2">Hands-On Support</p>
+                    <p className="text-muted-foreground">You're not getting a deck and disappearing act - you're getting a partner in the work.</p>
                   </CardContent>
                 </Card>
                 <Card className="text-center">
                   <CardContent className="pt-8 pb-8">
-                    <p className="font-display text-4xl font-bold text-primary">100K+</p>
-                    <p className="mt-2 text-muted-foreground">Users Onboarded</p>
+                    <p className="font-display text-xl font-bold text-primary mb-2">Web2 + Web3</p>
+                    <p className="text-muted-foreground">Experience across both traditional and crypto-native products.</p>
                   </CardContent>
                 </Card>
                 <Card className="text-center">
                   <CardContent className="pt-8 pb-8">
-                    <p className="font-display text-4xl font-bold text-primary">98%</p>
-                    <p className="mt-2 text-muted-foreground">Client Satisfaction</p>
+                    <p className="font-display text-xl font-bold text-primary mb-2">Straightforward Communication</p>
+                    <p className="text-muted-foreground">Honest conversations, clear expectations, and no inflated promises.</p>
                   </CardContent>
                 </Card>
               </div>
@@ -227,7 +222,7 @@ export default function AboutPage() {
                 Let&rsquo;s Build Something Great Together
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                Ready to take your project to the next level? Let&rsquo;s start the conversation.
+                If you're building or fixing a product and want a partner who will tell you the truth and help you move forward, let's talk.
               </p>
               <div className="mt-10">
                 <Button asChild size="lg">

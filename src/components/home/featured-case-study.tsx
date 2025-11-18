@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, TrendingUp } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -13,7 +13,7 @@ export default function FeaturedCaseStudy() {
             Proven Results
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            See how we helped FlashDash transform investor trading with AI-powered insights
+            See how we helped FlashDash give investors more control over how they track their own portfolios.
           </p>
         </div>
 
@@ -35,32 +35,21 @@ export default function FeaturedCaseStudy() {
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="text-center p-4 rounded-lg bg-crypto-dark/50 border border-crypto-accent/10">
-                <div className="flex items-center justify-center mb-2">
-                  <TrendingUp className="h-5 w-5 text-crypto-accent mr-2" />
-                  <p className="font-display text-2xl font-bold text-crypto-accent">&lt;50ms</p>
-                </div>
-                <p className="text-sm text-muted-foreground">Data Latency</p>
+                <p className="font-display text-lg font-bold text-crypto-accent mb-2">Google Sheets Integration</p>
+                <p className="text-sm text-muted-foreground">Investors connect their own portfolios as a live data source.</p>
               </div>
               <div className="text-center p-4 rounded-lg bg-crypto-dark/50 border border-crypto-accent/10">
-                <div className="flex items-center justify-center mb-2">
-                  <TrendingUp className="h-5 w-5 text-crypto-accent mr-2" />
-                  <p className="font-display text-2xl font-bold text-crypto-accent">35%</p>
-                </div>
-                <p className="text-sm text-muted-foreground">Better Decisions</p>
+                <p className="font-display text-lg font-bold text-crypto-accent mb-2">Custom Metrics</p>
+                <p className="text-sm text-muted-foreground">Each investor chooses the signals and views that matter to them.</p>
               </div>
               <div className="text-center p-4 rounded-lg bg-crypto-dark/50 border border-crypto-accent/10">
-                <div className="flex items-center justify-center mb-2">
-                  <TrendingUp className="h-5 w-5 text-crypto-accent mr-2" />
-                  <p className="font-display text-2xl font-bold text-crypto-accent">10K+</p>
-                </div>
-                <p className="text-sm text-muted-foreground">Active Investors</p>
+                <p className="font-display text-lg font-bold text-crypto-accent mb-2">Real-Time View</p>
+                <p className="text-sm text-muted-foreground">Market data, alerts, and portfolio changes update without refresh.</p>
               </div>
             </div>
 
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Built a sophisticated custom trading dashboard for investors with real-time market data, 
-              AI-powered analysis, custom alerts, and portfolio tracking. The platform processes market 
-              data with ultra-low latency and uses AI to help traders make better decisions.
+              We built a dashboard where investors plug in their own portfolios via Google Sheets and track the exact metrics they care about. The app combines their custom setup with real-time market data, alerts, and clear visuals so they can see what matters fast while allowing AI to feed them new options based on the metrics THEY choose.
             </p>
 
             <Button asChild variant="outline" size="lg">
