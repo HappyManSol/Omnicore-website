@@ -52,7 +52,7 @@ export default function Hero() {
             </div>
             <div className="flex flex-col items-center p-4 rounded-lg border border-crypto-accent/20 bg-crypto-grey-900/50 backdrop-blur">
               <p className="font-display text-lg font-bold text-crypto-accent mb-2">Hands-On Execution</p>
-              <p className="text-sm text-crypto-grey-400 text-center">We don't just advise from the sidelines - we help you build and ship.</p>
+              <p className="text-sm text-crypto-grey-400 text-center">We don&apos;t just advise from the sidelines - we help you build and ship.</p>
             </div>
             <div className="flex flex-col items-center p-4 rounded-lg border border-crypto-accent/20 bg-crypto-grey-900/50 backdrop-blur">
               <p className="font-display text-lg font-bold text-crypto-accent mb-2">Web2 + Web3 Experience</p>

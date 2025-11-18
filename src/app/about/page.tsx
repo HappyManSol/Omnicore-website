@@ -194,7 +194,7 @@ export default function AboutPage() {
                 <Card className="text-center">
                   <CardContent className="pt-8 pb-8">
                     <p className="font-display text-xl font-bold text-primary mb-2">Hands-On Support</p>
-                    <p className="text-muted-foreground">You're not getting a deck and disappearing act - you're getting a partner in the work.</p>
+                    <p className="text-muted-foreground">You&apos;re not getting a deck and disappearing act - you&apos;re getting a partner in the work.</p>
                   </CardContent>
                 </Card>
                 <Card className="text-center">
@@ -222,7 +222,7 @@ export default function AboutPage() {
                 Let&rsquo;s Build Something Great Together
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                If you're building or fixing a product and want a partner who will tell you the truth and help you move forward, let's talk.
+                If you&apos;re building or fixing a product and want a partner who will tell you the truth and help you move forward, let&apos;s talk.
               </p>
               <div className="mt-10">
                 <Button asChild size="lg">
