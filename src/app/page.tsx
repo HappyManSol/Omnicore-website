@@ -6,6 +6,7 @@ import ServicesPreview from "@/components/home/services-preview";
 import EngagementPreview from "@/components/home/engagement-preview";
 import FeaturedCaseStudy from "@/components/home/featured-case-study";
 import LeadMagnet from "@/components/home/lead-magnet";
+import FounderOperator from "@/components/home/founder-operator";
 import Values from "@/components/home/values";
 import CTASection from "@/components/home/cta-section";
 import { OrganizationSchema, WebSiteSchema } from "@/components/json-ld";
@@ -26,6 +27,7 @@ export default function HomePage() {
         <EngagementPreview />
         <FeaturedCaseStudy />
         {/* <LeadMagnet /> */}
+        <FounderOperator />
         <Values />
         <CTASection />
       </main>
