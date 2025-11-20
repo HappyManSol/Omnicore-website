@@ -150,5 +150,16 @@ export const CASE_STUDIES = [
     image: "/images/case-studies/web3-gaming.jpg",
     tags: ["Product", "Growth", "Web3", "Gaming", "Operations"],
   },
+  {
+    id: "tap-fintech",
+    title: "Tap Fintech",
+    client: "Tap Fintech",
+    category: "Web3",
+    challenge: "Tap Fintech was growing fast but their workflows and communication systems were scattered. They lacked consistent task management, operational clarity, and structure within their marketing team. Leadership needed the business to run smoothly so they could focus on product and growth instead of daily operational firefighting.",
+    solution: "Audited all existing workflows, communication channels, and team structures. Implemented Asana as a unified operational system with intake pipelines, prioritization logic, templates, and reporting cycles. Coached and organized the marketing team for better coordination and provided six months of hands-on operational leadership.",
+    results: "A fully structured operational ecosystem for the entire team. Clear marketing flow and faster execution. Stable processes that reduced confusion and task bottlenecks. Better team accountability and predictable work cycles. Leadership regained focus for growth and strategy.",
+    image: "/images/case-studies/tap-fintech.jpg",
+    tags: ["Operations", "Web3", "Team Structure", "Process"],
+  },
 ] as const;
 

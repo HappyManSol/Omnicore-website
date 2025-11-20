@@ -1,5 +1,8 @@
+import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 interface CaseStudyCardProps {
   title: string;
@@ -9,6 +12,7 @@ interface CaseStudyCardProps {
   solution: string;
   results: string;
   tags: readonly string[];
+  link?: string;
 }
 
 export default function CaseStudyCard({
@@ -19,6 +23,7 @@ export default function CaseStudyCard({
   solution,
   results,
   tags,
+  link,
 }: CaseStudyCardProps) {
   return (
     <Card className="group hover:shadow-lg transition-all h-full flex flex-col">
@@ -57,6 +62,16 @@ export default function CaseStudyCard({
             </Badge>
           ))}
         </div>
+        {link && (
+          <div className="mt-6">
+            <Button asChild variant="outline" size="sm" className="w-full">
+              <Link href={link}>
+                Read Case Study
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        )}
       </CardContent>
     </Card>
   );

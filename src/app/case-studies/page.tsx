@@ -72,6 +72,7 @@ export default function CaseStudiesPage() {
                   solution={study.solution}
                   results={study.results}
                   tags={study.tags}
+                  link={study.id === "tap-fintech" ? "/case-studies/tap-fintech" : undefined}
                 />
               ))}
             </div>
