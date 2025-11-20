@@ -68,10 +68,10 @@ export default function EngagementTiers() {
           <p className="text-lg text-muted-foreground">
             Three engagement levels depending on how deep you need us embedded into your product and growth.
           </p>
-          <div className="mt-6 inline-flex items-center rounded-full border border-crypto-accent/30 bg-crypto-grey-900/80 backdrop-blur-sm px-4 py-1.5 text-sm">
-            <Sparkles className="mr-2 h-4 w-4 text-crypto-accent" />
+          <div className="mt-6 inline-flex items-center rounded-full border border-crypto-accent/30 bg-crypto-grey-900/80 backdrop-blur-sm px-4 py-1.5 text-sm whitespace-nowrap">
+            <Sparkles className="mr-2 h-4 w-4 text-crypto-accent flex-shrink-0" />
             <span className="text-crypto-accent">
-              These tiers make it easy for you to get the exact level of support you need without paying for anything you do not.
+              Three tiers that make it easy for you to get the exact level of support you need without paying for anything you don&apos;t.
             </span>
           </div>
         </div>
