@@ -13,7 +13,7 @@ export default function FounderOperator() {
               About the Operator
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              OmniCore isn&apos;t a large agency - it&apos;s a hands-on partnership led by someone who actually builds, fixes, and grows products. I work directly with founders to simplify their product decisions, clean up user flows, and guide launches or growth efforts with clarity and experience.
+              OmniCore is a hands-on partnership led by someone who actually builds, fixes, and grows products. You work directly with me, as well as additional team members when a project needs full execution.
             </p>
           </div>
 
@@ -25,7 +25,7 @@ export default function FounderOperator() {
                   Who I Am
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  My name is Happy, and I&apos;m a product and growth operator with experience across Web2 and Web3. Over the years I&apos;ve worked with startups, gaming studios, and crypto-native teams to help them achieve clearer product direction, smooth launches, stable user retention, and sustainable growth systems. I focus on straightforward communication, honest feedback, and hands-on support - no bloated agency process, no fluff, and no hype.
+                  My name is Happy. I&apos;m a product and growth operator with 6 years experience across Web2 and Web3. I&apos;ve worked with founders, gaming studios, and crypto-native teams to improve product clarity, simplify user flows, stabilize retention, and create launch systems that actually work for real users.
                 </p>
               </div>
 
@@ -34,7 +34,7 @@ export default function FounderOperator() {
                   How I Work
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  You get direct communication, real execution, and an operator who understands how product, UX, incentives, and marketing tie together. Whether it&apos;s refining your onboarding, planning a launch, or improving live-user experience, I bring practical insight and help you move faster with fewer moving parts.
+                  You get direct communication, real execution, and an operator who understands how product, UX, incentives, and growth connect. Whether you&apos;re refining onboarding, planning a launch, or improving a live product, my goal is to give you simple decisions, clean direction, and faster progress with fewer moving parts.
                 </p>
               </div>
             </div>

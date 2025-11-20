@@ -91,7 +91,11 @@ export default function CaseStudiesPage() {
           <div className="container">
             <div className="mx-auto max-w-3xl text-center">
               <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-                Ready to Write Your Success Story?
+                Ready to Write Your{" "}
+                <span className="bg-gradient-to-r from-crypto-accent via-crypto-electric to-crypto-accent bg-clip-text text-transparent">
+                  Success Story
+                </span>
+                ?
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
                 Let&rsquo;s discuss how we can help you achieve similar results and exceed your goals.
