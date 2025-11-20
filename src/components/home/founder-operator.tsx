@@ -36,7 +36,7 @@ export default function FounderOperator() {
                   Who I Am
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  My name is Happy. I&apos;m a product and growth operator with 6 years experience across Web2 and Web3. I&apos;ve worked with founders, gaming studios, and crypto-native teams to improve product clarity, simplify user flows, stabilize retention, and create launch systems that actually work for real users.
+                  My name is Happy. I&apos;m a product and growth operator with years of experience across Web2 and Web3. I&apos;ve worked with founders, gaming studios, and crypto-native teams to improve product clarity, simplify user flows, stabilize retention, and create launch systems that actually work for real users.
                 </p>
               </div>
 
