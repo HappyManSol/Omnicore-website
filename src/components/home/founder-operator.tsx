@@ -6,6 +6,17 @@ import { Button } from "@/components/ui/button";
 export default function FounderOperator() {
   return (
     <>
+      {/* Hybrid Identity Highlight */}
+      <section className="py-16 md:py-20 bg-crypto-grey-900/30">
+        <div className="container">
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-xl md:text-2xl font-medium text-foreground leading-relaxed">
+              You get the clarity of a senior operator and the execution of a scalable team without paying agency overhead.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 md:py-28 bg-crypto-dark">
         <div className="container">
           <div className="mx-auto max-w-2xl text-center mb-12">
@@ -35,6 +46,9 @@ export default function FounderOperator() {
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
                   You get direct communication, real execution, and an operator who understands how product, UX, incentives, and growth connect. Whether you&apos;re refining onboarding, planning a launch, or improving a live product, my goal is to give you simple decisions, clean direction, and faster progress with fewer moving parts.
+                </p>
+                <p className="text-muted-foreground leading-relaxed mt-4 font-medium">
+                  I help founders see the product clearly and move faster by cutting out everything that creates confusion or slows them down.
                 </p>
               </div>
             </div>

@@ -61,6 +61,17 @@ export default function ServicesPage() {
           </div>
         </section>
 
+        {/* Tiers Intro */}
+        <section className="py-12 md:py-16 bg-crypto-grey-900/30">
+          <div className="container">
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                These tiers make it easy for you to get the exact level of support you need without paying for anything you do not.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Engagement Tiers */}
         <EngagementTiers />
 
